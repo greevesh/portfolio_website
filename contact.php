@@ -47,17 +47,15 @@ in your form:</strong>'.$error.'</div>';
 
       /* THE EMAIL WHERE YOU WANT TO RECIEVE THE CONTACT MESSAGES */
 
- if (mail("info@youremailaddress.com", "Message from Your Website Name",
+ if (mail("harrisongreeves@clientsformentalhealthspecialists.com", "Message from clientsformentalhealthspecialists.com",
  
 "Name: ".$_POST['name']."
 Email: ".$_POST['email']."
 Phone: ".$_POST['phone']." 
 Message: ".$_POST['message'])) {
-$result='<div class="alert alert-success"> <strong> Thank
-you!</strong> We\'ll get back to you shortly.</div>';
+$result='<div class="alert alert-success">Message sent. I will get back to you ASAP :)</div>';
 } else {
-$result='<div class="alert alert-danger">Sorry, there was
-an error sending your message. Please try again later.</div>';
+$result='<div class="alert alert-danger">Sorry. Something went wrong :(</div>';
 }
 }
 }

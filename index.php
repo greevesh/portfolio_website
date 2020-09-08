@@ -256,7 +256,7 @@
 
             <?php 
           if (isset($_POST['submit']) && !$warning) {
-            $to = 'hgreeves96@gmail.com';
+            $to = 'harrisongreeves@clientsformentalhealthspecialists.com';
             $subject = 'Message request from: ' . $name;
             $body = 'Message Request' . '<br><br>' .
                     'Name: '  . $name . '<br><br>' .
@@ -272,14 +272,14 @@
             $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
             // Optional headers
-            $headers .= 'To: Harri <hgreeves@protonmail.com>';
+            $headers .= 'To: Harri <harrisongreeves@clientsformentalhealthspecialists.com>';
             $headers .= 'From: Message Request <$email>';
 
             if (!mail($to, $subject, $body, $headers)) {
               echo "<div class='alert alert-danger'>Sorry. Something went wrong :(</div>";
             }
             else
-              echo '<div class="alert alert-success">Message sent. I will get back to you within two working days :)</div>';
+              echo '<div class="alert alert-success">Message sent. I will get back to you ASAP :)"</div>';
           }   
         ?>
                     

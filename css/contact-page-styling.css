@@ -1,6 +1,6 @@
 .logo {
 	width: 90%;
-	margin-top: -35px;
+	margin-top: -20px;
 }
 
 .navbar {
@@ -85,7 +85,7 @@
 }
 
 .form-control {
-	border: 1px solid #2b7d80 !important;
+	border: 1px solid #3f3f3f !important;
 	height: 50px !important;
 	font-size: 16px;
 	border-radius: 0;
@@ -93,7 +93,7 @@
 }
 
 #message {
-	border: 1px solid #2b7d80 !important;
+	border: 1px solid #3f3f3f !important;
 	border-radius: 0 !important;
 	margin: 0 0 10px 0;
 	height: 120px !important;
@@ -135,7 +135,7 @@ label {
 
 form {
 	padding: 20px;
-	margin-top: 80px;
+	margin-top: 20px;
 }
 
 .form-control {
@@ -160,6 +160,13 @@ form {
 	-o-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	transition: all 0.4s;
+	width: 100%;
+}
+
+@media (max-width: 330px) {
+	.btn-success {
+		font-size: 16px;
+	}
 }
 
 .btn-success:hover {
@@ -266,7 +273,13 @@ form {
 
 /* Large screens ----------- */
 
-@media only screen and (min-width: 1824px) {
+@media (max-width: 1169px) {
+	.logo {
+		margin-top: -35px;
+	}
+}
+
+@media only screen and (min-width: 1170px) {
 	.logo {
 		width: 90%;
 		margin-top: -20px;
