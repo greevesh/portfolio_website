@@ -30,30 +30,50 @@
 
  <body>
   <div class="topbanner">
-   <nav class="navbar navbar-default navbar-static navbar-transparent" role="navigation">
-    <div class="container">
-      <!-- Start navbar-header -->
-      <div class="navbar-header">
+  <nav class="navbar navbar-default navbar-static navbar-transparent" role="navigation">
+      
+      <div class="container">
 
-        <a class="navbar-brand" href="/">
+        <div class="navbar-header">
 
+        <a class="navbar-brand" href="https://youragencydomain.com">
         <img alt="Brand" src="images/therapy_logo.png" class="logo"></a>
 
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=" .navbar-collapse">
-          <span class="sr-only">Toggle navigation </span>
-        </button>
-      </div> <!-- End navbar-header-->
+         
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=" .navbar-collapse">
+      
+                        <span class="sr-only">Toggle navigation </span>
+          
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+          
+                </button>
 
-      <!-- Start navbar collapse -->
-      <div class="collapse navbar-collapse" align="center">
-        <ul class="nav navbar-nav">
-          <li align="center"> <a href="#request-a-quote">Request a Quote</a></li>
-          <li align="center"> <a href="blog.html">Blog</a></li>
-          <li align="center"> <a href="contact.php">Contact</a></li>
-        </ul>
-      </div><!-- End navbar-collapse-->
-  </div>
-</nav>
+                 
+        
+        </div><!--end navbar-header-->
+
+
+      
+          <div class="collapse navbar-collapse" align="center">
+      
+                   <ul class="nav navbar-nav">
+
+                    <li align="center"> <a href="#request-a-quote">Request a Quote</a></li>
+
+                    <li align="center"> <a href="blog.html">Blog</a></li>
+
+                    <li align="center"> <a href="contact.php">Contact</a></li>
+              
+          
+              </ul>
+          
+          </div><!--end navbar-collapse-->
+
+      </div>
+
+</nav><!--end nav-->
 
 
   <h1 align="center">I Help Mental Health Specialists <br><span class="get-clients">Get Clients</span></h1>
@@ -256,7 +276,7 @@
 
             <?php 
           if (isset($_POST['submit']) && !$warning) {
-            $to = 'harrisongreeves@clientsformentalhealthspecialists.com';
+            $to = 'harrigreeves@clientsformentalhealthspecialists.com';
             $subject = 'Message request from: ' . $name;
             $body = 'Message Request' . '<br><br>' .
                     'Name: '  . $name . '<br><br>' .
@@ -272,14 +292,14 @@
             $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
             // Optional headers
-            $headers .= 'To: Harri <harrisongreeves@clientsformentalhealthspecialists.com>';
+            $headers .= 'To: Harri <harrigreeves@clientsformentalhealthspecialists.com>';
             $headers .= 'From: Message Request <$email>';
 
             if (!mail($to, $subject, $body, $headers)) {
-              echo "<div class='alert alert-danger'>Sorry. Something went wrong :(</div>";
+              echo "<div class='alert alert-danger'>Sorry. Something went wrong :(<br></div>";
             }
             else
-              echo '<div class="alert alert-success">Message sent. I will get back to you ASAP :)"</div>';
+              echo '<div class="alert alert-success">Message sent. I will get back to you ASAP :)<br></div>';
           }   
         ?>
                     

@@ -41,13 +41,13 @@ FILTER_VALIDATE_EMAIL)) {
      if ($error) {
 
  $result='<div class="alert alert-danger"><strong>There were error(s)
-in your form:</strong>'.$error.'</div>';
+in your form:</strong>'.$error.'</div><br>';
 
      } else {
 
       /* THE EMAIL WHERE YOU WANT TO RECIEVE THE CONTACT MESSAGES */
 
- if (mail("harrisongreeves@clientsformentalhealthspecialists.com", "Message from clientsformentalhealthspecialists.com",
+ if (mail("harrigreeves@clientsformentalhealthspecialists.com", "Message from clientsformentalhealthspecialists.com",
  
 "Name: ".$_POST['name']."
 Email: ".$_POST['email']."
@@ -77,7 +77,7 @@ $result='<div class="alert alert-danger">Sorry. Something went wrong :(</div>';
         <!-- CSS Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/navbar.css" />
-    <link rel="stylesheet" type="text/css" href="css/contact-page-styling.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/contact-page-styling.css" />
    
 
 
