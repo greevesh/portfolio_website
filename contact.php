@@ -78,11 +78,11 @@ $result='<div class="alert alert-danger">Sorry. Something went wrong :(</div>';
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       
-      <meta content="" name="description">
+      <meta name="description" content="Contact and enquire further about getting more clients for your counselling business. Please fill in the form if you have any other questions.">
         <!-- Meta Description -->
 
     
-    <title>Contact</title>
+    <title>Clients for Counsellors: Contact</title>
 
         <!-- CSS Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -118,10 +118,13 @@ $result='<div class="alert alert-danger">Sorry. Something went wrong :(</div>';
     
             <a class="navbar-brand" href="/">
     
-            <img alt="Brand" src="images/therapy_logo.png" class="logo"></a>
+            <img alt="clients-for-counsellors-logo" src="images/clients-for-counsellors-logo.png" class="logo"></a>
     
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=" .navbar-collapse">
               <span class="sr-only">Toggle navigation </span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
           </div> <!-- End navbar-header-->
     

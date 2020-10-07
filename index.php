@@ -14,9 +14,9 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Mental Health Service Growth: Websites, SEO, Social Media and Online Marketing."/>
+      <meta name="description" content="Helping mental health specialists in the UK get clients with web design, SEO and social media marketing."/>
     
-      <title>Mental Health Service Growth: Websites, SEO and More</title>
+      <title>Clients For Counsellors: Websites, SEO and Social Media</title>
 
       <!-- CSS Stylesheets -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,8 +44,8 @@
       <div class="container">
 
         <div class="navbar-header">
-          <a class="navbar-brand" href="https://youragencydomain.com">
-          <img alt="Brand" src="images/therapy_logo.png" class="logo"></a>
+          <a class="navbar-brand" href="/">
+          <img alt="clients-for-counsellors-logo" src="images/clients-for-counsellors-logo.png" class="logo"></a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=" .navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
@@ -78,7 +78,7 @@
       <div class="row">
 
         <div class="col-md-6" align="center">
-          <img src="images/self_care_isnt_selfish.jpeg" alt="self care isn't selfish" class="img-responsive">
+          <img src="images/why-you-need-a-website.jpeg" alt="why-you-need-a-website" class="img-responsive">
           <h2 class="article-name">3 Reasons Why Every Mental Health Specialist Needs a Website</h2>
         </div><!--end col-md-6-->
 
@@ -102,24 +102,21 @@
       <div class="row">
 
         <div data-aos="flip-left" data-aos-duration="2000" class="col-md-4" align="center">
-          <img src="images/css.jpeg" alt="css" class="img-responsive">
+          <img src="images/website-design.jpeg" alt="website-design" class="img-responsive">
           <h2>Website Design</h2>
-          <p>£200</p>
-          <p class="morecustomers-description">For a single page website, this will be the price I charge for the next two clients.<p>
+          <p>Starting from £250 (once off)</p>
         </div>
 
         <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4" align="center">
           <img src="images/seo.jpeg" alt="seo" class="img-responsive">
           <h2>SEO</h2>
-          <p>£0.00</p>
-          <p class="morecustomers-description">For the time being, I'm happy to provide SEO services for free!</p>
+          <p>Starting from £150 (per month)</p>
         </div>
 
         <div data-aos="flip-right" data-aos-duration="2000" class="col-md-4" align="center">
           <img src="images/social-media.jpg" alt="social-media" class="img-responsive">
             <h2>Social Media</h2>
-            <p>£0.00</p>
-            <p class="morecustomers-description">I'm also willing to provide social media services for free!</p>
+            <p>Starting from £200 (per month)</p>
         </div>
 
       </div><!--- End row-->
@@ -131,7 +128,7 @@
       <div class="testimonial-container">
         <div align="right">
           <h4>Testimonials</h4>
-          <img src="images/gloria.jpg" alt="happy couple" class="img-responsive">
+          <img src="images/gloria-testimonial.jpg" alt="gloria-testimonial" class="img-responsive">
           <p>"Harri was a pleasure to work with! His friendly and can-do attitude, professionalism and knowledge in website building made it really easy for a tech illiterate person like me. He provided very prompt updates and solutions to all my website's problems - nothing was too much trouble for him! I would highly recommend Harri to anyone in need of a website, or if you just need someone to fix a bug or two!"</p>
           <p class="client-name">- Gloria, London</p>
         </div>
@@ -144,7 +141,7 @@
     <h4 data-aos="fade-down" data-aos-duration="2000" align="center">Some of My Work</h4>
 
     <div align="center">
-      <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img data-aos="zoom-in" data-aos-duration="2000" src="images/sarahs_therapy.png" alt="portfolio-website" class="img-responsive"></a>
+      <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img data-aos="zoom-in" data-aos-duration="2000" src="images/sarahs-online-therapy.png" alt="sarahs-online-therapy" class="img-responsive"></a>
       <h2 data-aos="fade-up" data-aos-duration="2000">Sarah's Online Therapy</h2>
     </div>
 
@@ -237,7 +234,7 @@
 
   <div id="footer" align="center">
     <div>
-      <a href="https://www.linkedin.com/in/harrisongreeves/">
+      <a target="_blank" href="https://www.linkedin.com/in/harrisongreeves/">
       <svg  width="70" height="70" viewBox="0 0 24 24">
       <path fill="white" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
     </div>
