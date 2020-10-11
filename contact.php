@@ -1,65 +1,4 @@
-<?php
 
-if ($_POST["submit"]) {
-
-      
-      
-     if (!$_POST['name']) {
-
-       $error="<br />Please enter your name";
-
-     }
-      
-     if (!$_POST['email']) {
-
-       $error.="<br />Please enter your email address";
-
-     }
-     
-     
-     if (!$_POST['phone']) {
-     
-      $error.="<br /> Please enter your phone number";
-     
-     }
-     
-      
-     if (!$_POST['message']) {
-
-       $error.="<br />Please enter a message";
-
-     }
-      
-     if ($_POST['email']!="" AND !filter_var($_POST['email'],
-FILTER_VALIDATE_EMAIL)) {
-      
-     $error.="<br />Please enter a valid email address";
-
-     }
-     
-      
-     if ($error) {
-
- $result='<div class="alert alert-danger"><strong>There were error(s)
-in your form:</strong>'.$error.'</div><br>';
-
-     } else {
-
-      /* THE EMAIL WHERE YOU WANT TO RECIEVE THE CONTACT MESSAGES */
-
- if (mail("harrigreeves@clientsformentalhealthspecialists.com", "Message from clientsformentalhealthspecialists.com",
- 
-"Name: ".$_POST['name']."
-Email: ".$_POST['email']."
-Phone: ".$_POST['phone']." 
-Message: ".$_POST['message'])) {
-$result='<div class="alert alert-success">Message sent. I will get back to you ASAP :)</div>';
-} else {
-$result='<div class="alert alert-danger">Sorry. Something went wrong :(</div>';
-}
-}
-}
-?>
 
 <!DOCTYPE html>
   <html lang="en">
@@ -82,7 +21,7 @@ $result='<div class="alert alert-danger">Sorry. Something went wrong :(</div>';
         <!-- Meta Description -->
 
     
-    <title>Clients for Counsellors: Contact</title>
+    <title>Clients For Counsellors: Contact</title>
 
         <!-- CSS Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -145,7 +84,7 @@ $result='<div class="alert alert-danger">Sorry. Something went wrong :(</div>';
 
                   <h3 align="center">CONTACT</h3><br /><br />
 
-                  <p align="center" id="result"><?php echo $result; ?></p>
+                  
 
             </div><!--- /.col-md-->
 
@@ -161,7 +100,7 @@ $result='<div class="alert alert-danger">Sorry. Something went wrong :(</div>';
 
 
 
-        <div class="col-md-12 emailForm" align="center">
+        <div id="con" class="col-md-12 emailForm" align="center">
 
         <br><br>
 
@@ -172,33 +111,66 @@ $result='<div class="alert alert-danger">Sorry. Something went wrong :(</div>';
                     <div class="form-group">
 
                                 <input type="text" name="name" class="form-control" placeholder="Your Name" value="<?php echo $_POST['name']; ?>" />
+                                <?php
+                $name = htmlspecialchars($_POST['name']);
+                if (isset($_POST['submit']) && empty($name)) {
+                  $warning = "<span style='color: red'>Please enter your name</span>";
+                  echo $warning;
+                }
+              ?>
 
                     </div><!--end form-group-->
 
                     <div class="form-group">
 
                                 <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php echo $_POST['email']; ?>" />
-
+                                <?php
+                $email = htmlspecialchars($_POST['email']);
+                if (isset($_POST['submit']) && empty($email)) {
+                  $warning = "<span style='color: red'>Please enter your email</span>";
+                  echo $warning;
+                }
+                elseif (isset($_POST['submit']) && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                  $warning = "<span style='color: red;'>Please enter a valid email</span>";
+                  echo $warning;
+                }
+              ?>
                     </div><!--end form-group-->
 
                     <div class="form-group">
 
-                                <input type="tel" name="phone" class="form-control" placeholder="Your Phone" value="<?php echo $_POST['phone']; ?>" />
+                                <textarea class="form-control" id="message" name="message">
+                                 
+                                </textarea>
 
-                    </div><!--end form-group-->
+                    </div><!--end form-group-->   
+                    
 
+                    <?php 
+              if (isset($_POST['submit']) && !$warning) {
+                $to = 'harrigreeves@clientsformentalhealthspecialists.com';
+                $subject = 'Message request from: ' . $name;
+                $body = 'Message Request' . '<br><br>' .
+                        'Name: '  . $name . '<br><br>' .
+                        'Email: ' . $email . '<br><br>' .
+                        'Message: ' . $message;
 
-                    <div class="form-group">
+                $headers  = 'MIME-Version: 1.0' . "\r\n";
+                $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
-                                <textarea class="form-control" id="message" name="message" placeholder="Message">
+                // Optional headers
+                $headers .= 'To: Harri <harrigreeves@clientsformentalhealthspecialists.com>';
+                $headers .= 'From: Message Request <$email>';
 
-                                    <?php echo $_POST['message']; ?> </textarea>
+                if (!mail($to, $subject, $body, $headers)) {
+                  echo "<div style='margin-bottom: 60px;' class='alert alert-danger'>Sorry. Something went wrong :(</div>";
+                }
+                else
+                  echo "<div style='margin-bottom: 60px;' class='alert alert-success'>Message sent. I will get back to you ASAP :)</div>";
+              }   
+            ?>
 
-                    </div><!--end form-group-->   <br /><br />
-
-
-
-                    <p align="center" ><input type="submit" name="submit" class="btn btn-success btn-lg" value="Send Message" /></p><br />
+                    <p align="center" ><input type="submit" name="submit" class="btn-lg submit" value="Send Message" /></p><br />
 
 
                   </form>

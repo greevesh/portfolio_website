@@ -72,6 +72,7 @@
       </div> 
   </div><!-- End topbanner -->
 
+  <hr class="divider">
 
   <div id="growbusiness">
     <div class="container">
@@ -104,7 +105,7 @@
         <div data-aos="flip-left" data-aos-duration="2000" class="col-md-4" align="center">
           <img src="images/website-design.jpeg" alt="website-design" class="img-responsive">
           <h2>Website Design</h2>
-          <p>Starting from £250 (once off)</p>
+          <p>Starting from £250 for a single page website (once off)</p>
         </div>
 
         <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4" align="center">
@@ -135,18 +136,20 @@
       </div>  <!--- End testimonial-container-->
   </div>  
 
+  <hr class="divider"></hr>
 
   <div class="portfolio">
     
-    <h4 data-aos="fade-down" data-aos-duration="2000" align="center">Some of My Work</h4>
+    <h4 align="center">Some of My Work</h4>
 
     <div align="center">
       <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img data-aos="zoom-in" data-aos-duration="2000" src="images/sarahs-online-therapy.png" alt="sarahs-online-therapy" class="img-responsive"></a>
-      <h2 data-aos="fade-up" data-aos-duration="2000">Sarah's Online Therapy</h2>
+      <h2>Sarah's Online Therapy</h2>
     </div>
 
   </div>
 
+  <hr class="divider"></hr>
 
   <div id="request-a-quote" class="request-quote"> <br>
     <h4>Reach Me</h4>
@@ -154,7 +157,7 @@
       <div class="row">
         <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2"><br>
 
-          <form method="post"><br>
+          <form method="post" action="/#request-a-quote"><br>
             <div align="center" class="form-group center-block">
               <input type="text" name="name" class="form-control" placeholder="Name" value="<?php echo $_POST['name']; ?>">
               <?php
@@ -183,13 +186,6 @@
 
             <div align="center" class="form-group center-block">
               <textarea class="form-control" name="message"><?php echo $_POST['message']; ?></textarea><br><br>
-              <?php
-                $message = htmlspecialchars($_POST['message']);
-                if (isset($_POST['submit']) && empty($message)) {
-                  $warning = "<span style='color: red'>Please enter a message</span>";
-                  echo $warning;
-                }
-              ?>
             </div>
 
             <?php 
@@ -200,11 +196,6 @@
                         'Name: '  . $name . '<br><br>' .
                         'Email: ' . $email . '<br><br>' .
                         'Message: ' . $message;
-
-                // Includes the chosen service in the email
-                if ($_POST['service'] !== 'Service') {
-                  $body .= '<br><br>' . $_POST['service'];
-                }
 
                 $headers  = 'MIME-Version: 1.0' . "\r\n";
                 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
@@ -223,7 +214,7 @@
 
             <br>
 
-            <button type="submit" name="submit" class="btn btn-success btn-lg submit"><a align="center">Request a Quote</a><br />
+            <button id="submitBtn" type="submit" name="submit" class="btn-lg submit"><a align="center">Request a Quote</a><br />
 
           </form> <!--- /form-->
         </div>
@@ -244,8 +235,6 @@
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-
 
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
