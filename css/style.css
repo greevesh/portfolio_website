@@ -191,16 +191,14 @@
 
 @media (max-width: 600px) {
 	.growsales {
-		background: rgb(60, 65, 126, 0.8);
+		background: rgb(60, 65, 126, 1);
 	}
 	.growsales::after {
 		content : "";
 		display: block;
 		position: absolute;
-		background: url("https://images.pexels.com/photos/968299/pexels-photo-968299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-		background-size: 100% 100%;
+		background-size: 100%;
 		background-repeat: no-repeat;
-		background-attachment: fixed;
 		top: 0;
 		left: 0;
 		height: 100%;
@@ -250,6 +248,20 @@
 	.growsales p {
 		text-align: center;
 		margin-top: 10px;
+	}
+}
+
+@media (max-width: 282px) {
+	.growsales p {
+		text-align: center;
+		margin-top: 15px;
+	}
+}
+
+@media (max-width: 278px) {
+	.growsales p {
+		text-align: center;
+		margin-top: -15px;
 	}
 }
 

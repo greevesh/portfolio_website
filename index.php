@@ -16,7 +16,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Helping mental health specialists in the UK get clients with web design, SEO and social media marketing."/>
     
-      <title>Clients For Counsellors: Websites, SEO and Social Media</title>
+      <title>Clients for Counsellors: Websites, SEO and Social Media</title>
 
       <!-- CSS Stylesheets -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +27,6 @@
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital@1&display=swap" rel="stylesheet">
-      
-      <!-- AOS (JavaScript Library) -->
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
       <!-- Favicon -->
       <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -45,7 +42,7 @@
 
         <div class="navbar-header">
           <a class="navbar-brand" href="/">
-          <img alt="clients-for-counsellors-logo" src="images/clients-for-counsellors-logo.png" class="logo"></a>
+          <img alt="clients-for-counsellors-logo" src="main_images/clients-for-counsellors-logo.png" class="logo"></a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=" .navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
@@ -56,7 +53,7 @@
 
         <div class="collapse navbar-collapse" align="center">
           <ul class="nav navbar-nav">
-            <li align="center"> <a href="#request-a-quote">Request a Quote</a></li>
+            <li align="center"> <a href="#book-a-call">Book a Call</a></li>
             <li align="center"> <a href="blog.html">Blog</a></li>
             <li align="center"> <a href="contact.php">Contact</a></li>
           </ul>
@@ -66,7 +63,7 @@
     </nav>
 
 
-  <h1 align="center">I Help Mental Health Specialists <br><span class="get-clients">Get Clients</span></h1>
+  <h1 align="center">I Help Counsellors <br><span class="get-clients">Get Clients</span></h1>
       <div class="row">
           <div class="col-md-6 col-md-offset-3" id="result" align="center"></div>
       </div> 
@@ -79,13 +76,14 @@
       <div class="row">
 
         <div class="col-md-6" align="center">
-          <img src="images/why-you-need-a-website.jpeg" alt="why-you-need-a-website" class="img-responsive">
-          <h2 class="article-name">3 Reasons Why Every Mental Health Specialist Needs a Website</h2>
+          <a href="/reasons-every-counsellor-needs-website.html"><img src="main_images/every-counsellor-needs-website.jpeg" alt="every-counsellor-needs-website" class="img-responsive"></a>
+          <h2 class="article-name">3 Reasons Why Every Counsellor Needs a Website</h2>
         </div><!--end col-md-6-->
 
-        <div class="col-md-6" align="center" id="read-article">
-          <button type="submit" class="btn btn-lg center-block articlelink" hvr-float-shadow><a href="blog.html">Read the Article</button></a>
-        </div>
+        <div class="col-md-6" align="center">
+          <a href="ways-grow-counselling-business-online.html"><img src="main_images/ways-grow-counselling-business-online.jpeg" alt="ways-grow-counselling-business-online" class="img-responsive"></a>
+          <h2 class="article-name">4 Ways To Grow Your Counselling Business Online</h2>
+        </div><!--end col-md-6-->
 
       </div><!--- End row -->
     </div><!--- End container -->
@@ -102,20 +100,20 @@
       <h3 align="center">I Help Mental Health Specialists With...</h3>
       <div class="row">
 
-        <div data-aos="flip-left" data-aos-duration="2000" class="col-md-4" align="center">
-          <img src="images/website-design.jpeg" alt="website-design" class="img-responsive">
+        <div class="col-md-4" align="center">
+          <img src="main_images/website-design.jpeg" alt="website-design" class="img-responsive">
           <h2>Website Design</h2>
           <p>Starting from £250 for a single page website (once off)</p>
         </div>
 
-        <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4" align="center">
-          <img src="images/seo.jpeg" alt="seo" class="img-responsive">
+        <div class="col-md-4" align="center">
+          <img src="main_images/seo.jpeg" alt="seo" class="img-responsive">
           <h2>SEO</h2>
           <p>Starting from £150 (per month)</p>
         </div>
 
-        <div data-aos="flip-right" data-aos-duration="2000" class="col-md-4" align="center">
-          <img src="images/social-media.jpg" alt="social-media" class="img-responsive">
+        <div class="col-md-4" align="center">
+          <img src="main_images/social-media.jpg" alt="social-media" class="img-responsive">
             <h2>Social Media</h2>
             <p>Starting from £200 (per month)</p>
         </div>
@@ -129,7 +127,7 @@
       <div class="testimonial-container">
         <div align="right">
           <h4>Testimonials</h4>
-          <img src="images/gloria-testimonial.jpg" alt="gloria-testimonial" class="img-responsive">
+          <img src="main_images/gloria-testimonial.jpg" alt="gloria-testimonial" class="img-responsive">
           <p>"Harri was a pleasure to work with! His friendly and can-do attitude, professionalism and knowledge in website building made it really easy for a tech illiterate person like me. He provided very prompt updates and solutions to all my website's problems - nothing was too much trouble for him! I would highly recommend Harri to anyone in need of a website, or if you just need someone to fix a bug or two!"</p>
           <p class="client-name">- Gloria, London</p>
         </div>
@@ -143,7 +141,7 @@
     <h4 align="center">Some of My Work</h4>
 
     <div align="center">
-      <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img data-aos="zoom-in" data-aos-duration="2000" src="images/sarahs-online-therapy.png" alt="sarahs-online-therapy" class="img-responsive"></a>
+      <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="main_images/sarahs-online-therapy.png" alt="sarahs-online-therapy" class="img-responsive"></a>
       <h2>Sarah's Online Therapy</h2>
     </div>
 
@@ -151,13 +149,13 @@
 
   <hr class="divider"></hr>
 
-  <div id="request-a-quote" class="request-quote"> <br>
-    <h4>Reach Me</h4>
+  <div id="book-a-call" class="request-quote"> <br>
+    <h4>Book a Call</h4>
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2"><br>
 
-          <form method="post" action="/#request-a-quote"><br>
+          <form method="post" action="/#book-a-call"><br>
             <div align="center" class="form-group center-block">
               <input type="text" name="name" class="form-control" placeholder="Name" value="<?php echo $_POST['name']; ?>">
               <?php
@@ -184,9 +182,13 @@
               ?>
             </div>
 
-            <div align="center" class="form-group center-block">
+            <div class="form-group center-block">
+
+                    <div align="center" class="form-group center-block">
               <textarea class="form-control" name="message"><?php echo $_POST['message']; ?></textarea><br><br>
             </div>
+
+                    </div><!--end form-group-->  
 
             <?php 
               if (isset($_POST['submit']) && !$warning) {
@@ -214,7 +216,7 @@
 
             <br>
 
-            <button id="submitBtn" type="submit" name="submit" class="btn-lg submit"><a align="center">Request a Quote</a><br />
+            <button id="submitBtn" type="submit" name="submit" class="btn-lg submit"><a align="center">Book a Call</a><br />
 
           </form> <!--- /form-->
         </div>
@@ -239,11 +241,5 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
 
-  <!-- Animate on Scroll library -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <script>
-    AOS.init();
-  </script>
 </body>
 </html>
