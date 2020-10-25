@@ -20,7 +20,7 @@
       <title>Clients for Counsellors: Contact</title>
 
       <!-- CSS stylesheets -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/navbar.css" />
       <link rel="stylesheet" type="text/css" href="css/contact-page-styling.css" />
     
@@ -55,11 +55,11 @@
           <!-- Start navbar collapse -->
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li align="center"> <a href="contact.php">Contact</a></li>
+              <li align="center"> <a href="../contact.php">Contact</a></li>
             </ul>
           </div> <!-- End navbar-collapse -->
         </div>
-        
+
       </nav>
 
       <!-- Start contact-heading -->
@@ -70,7 +70,7 @@
         </div> <!--- col-md -->
 
       </div> <!--- contact-heading -->
-    </div> <!--end contact-banner -->
+    </div> <!-- End contact-banner -->
 
 
     <div id="con" class="col-md-12 emailForm" align="center">
@@ -113,6 +113,13 @@
 
         <div align="center" class="form-group center-block">
           <textarea class="form-control" name="message" placeholder="Message"><?php echo $_POST['message']; ?></textarea><br><br>
+          <?php
+            $message = htmlspecialchars($_POST['message']);
+            if (isset($_POST['submit']) && empty($message)) {
+              $warning = "<span style='color: red'>Please enter a message</span>";
+              echo $warning;
+            }
+          ?>
         </div>
 
       </div> <!-- End form-group -->   
@@ -155,6 +162,10 @@
           <svg style="margin-top: 20px;" width="70" height="70" viewBox="0 0 24 24">
           <path fill="white" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
       </div>
+
+      <br>
+      
+      <a href="/contact.php">Contact</a>
     </div> <!-- End of footer -->
 
     <b><p align="center" class="text-muted copyright">&copy; clientsformentalhealthspecialists.com</p></b>

@@ -141,6 +141,12 @@ form {
     transition: all 0.4s;
     height: 100%;
 }
+.submit:hover {
+    color: #fff;
+    background-color: #d66109;
+    border-color: #d66109;
+    opacity: 0.9;
+}
 @media (max-width: 330px) {
     .btn-success {
         font-size: 16px;

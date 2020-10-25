@@ -19,7 +19,7 @@
       <title>Clients for Counsellors: Websites, SEO and Social Media</title>
 
       <!-- CSS Stylesheets -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/style.css"/>
       <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
       <link rel="stylesheet" type="text/css" href="css/get-a-quote-form.css"/>
@@ -54,8 +54,8 @@
 
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li align="center"> <a href="#book-a-call">Book a Call</a></li>
-              <li align="center"> <a href="contact.php">Contact</a></li>
+              <li align="center"><a href="#book-a-call">Book a Call</a></li>
+              <li align="center"><a href="contact.php">Contact</a></li>
             </ul>
           </div>
 
@@ -70,53 +70,55 @@
     </div> <!-- End topbanner -->
 
 
-    <hr class="divider">
+    <div class="row" style="margin: 50px 100px;">
+
+      <h2 class="latest-articles" style="margin-bottom: 60px;" align="center">Latest Articles</h2>
+
+      <div class="article-container col-md-6">
+        <a href="blog/reasons-every-counsellor-needs-website.html"><img class="article-img img-responsive" src="main_images/every-counsellor-needs-website.jpeg" alt="every-counsellor-needs-website">
+        <div class="img-overlay">
+          <p class="img-description" align="center">3 Reasons Why Every Counsellor Needs a Website</p>
+        </div>
+      </div>
+
+      <div class="article-container col-md-6">
+      <a href="blog/ways-grow-counselling-business-online.html"><img class="article-img img-responsive" src="main_images/ways-grow-counselling-business-online.jpeg" alt="every-counsellor-needs-website">
+        <div class="img-overlay">
+          <p class="img-description" align="center">4 Ways to Grow Your Counselling Business Online</p>
+        </div>
+      </div>
+
+    </div> <!-- End row -->
+
+    
+    </a> <!-- This somehow fixes the weird link bug -->
 
 
-    <div id="growbusiness">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-6" align="center">
-            <a href="/reasons-every-counsellor-needs-website.html"><img src="main_images/every-counsellor-needs-website.jpeg" alt="every-counsellor-needs-website" class="img-responsive"></a>
-            <h2 class="article-name">3 Reasons Why Every Counsellor Needs a Website</h2>
-          </div> <!-- end col-md-6 -->
-
-          <div class="col-md-6" align="center">
-            <a href="ways-grow-counselling-business-online.html"><img src="main_images/ways-grow-counselling-business-online.jpeg" alt="ways-grow-counselling-business-online" class="img-responsive"></a>
-            <h2 class="article-name">4 Ways To Grow Your Counselling Business Online</h2>
-          </div> <!--end col-md-6-->
-
-        </div> <!--- End row -->
-      </div> <!--- End container -->
-    </div> <!--- End grow-business -->
-
-
-    <div class="growsales"> 
+    <div class="sales-banner"> 
       <p>Help overcome Britain's mental health crisis while I take care of your online presence.</p>
     </div>
 
 
-    <div id="morecustomers">
+    <div class="services">
       <div class="container">
-        <h3 align="center">I Help Mental Health Specialists With...</h3>
+        <h2 align="center">I Help Counsellors With...</h2>
         <div class="row">
 
           <div class="col-md-4" align="center">
             <img src="main_images/website-design.jpeg" alt="website-design" class="img-responsive">
-            <h2>Website Design</h2>
+            <h3>Website Design</h3>
             <p>Starting from £250 for a single page website (once off)</p>
           </div>
 
           <div class="col-md-4" align="center">
             <img src="main_images/seo.jpeg" alt="seo" class="img-responsive">
-            <h2>SEO</h2>
+            <h3>SEO</h3>
             <p>Starting from £150 (per month)</p>
           </div>
 
           <div class="col-md-4" align="center">
             <img src="main_images/social-media.jpg" alt="social-media" class="img-responsive">
-              <h2>Social Media</h2>
+              <h3>Social Media</h3>
               <p>Starting from £200 (per month)</p>
           </div>
 
@@ -128,7 +130,7 @@
     <div class="testimonials"> 
         <div class="testimonial-container">
           <div align="right">
-            <h4>Testimonials</h4>
+            <h2 align="center">Testimonials</h2>
             <img src="main_images/gloria-testimonial.jpg" alt="gloria-testimonial" class="img-responsive">
             <p>"Harri was a pleasure to work with! His friendly and can-do attitude, professionalism and knowledge in website building made it really easy for a tech illiterate person like me. He provided very prompt updates and solutions to all my website's problems - nothing was too much trouble for him! I would highly recommend Harri to anyone in need of a website, or if you just need someone to fix a bug or two!"</p>
             <p class="client-name">- Gloria, London</p>
@@ -137,26 +139,23 @@
     </div>  
 
 
-    <hr class="divider"></hr>
-
-
     <div class="portfolio">
       
-      <h4 align="center">Some of My Work</h4>
+      <h2 align="center">Some of My Work</h2>
 
       <div align="center">
         <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="main_images/sarahs-online-therapy.png" alt="sarahs-online-therapy" class="img-responsive"></a>
-        <h2>Sarah's Online Therapy</h2>
+        <h4>Sarah's Online Therapy</h4>
       </div>
 
     </div>
 
 
-    <hr class="divider"></hr>
+    <div id="book-a-call" class="book-a-call"> 
+      
+      <br>
 
-
-    <div id="book-a-call" class="request-quote"> <br>
-      <h4>Book a Call</h4>
+      <h2 align="center">Book a Call</h2>
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2"><br>
@@ -191,6 +190,13 @@
               <div class="form-group center-block">
                 <div align="center" class="form-group center-block">
                 <textarea class="form-control" name="message" placeholder="Message"><?php echo $_POST['message']; ?></textarea><br><br>
+                <?php
+                  $message = htmlspecialchars($_POST['message']);
+                  if (isset($_POST['submit']) && empty($message)) {
+                    $warning = "<span style='color: red'>Please enter a message</span>";
+                    echo $warning;
+                  }
+                ?>
               </div>
 
           </div>
@@ -233,11 +239,14 @@
     <div id="footer" align="center">
       <div>
         <a target="_blank" href="https://www.linkedin.com/in/harrisongreeves/">
-        <svg  width="70" height="70" viewBox="0 0 24 24">
+        <svg width="70" height="70" viewBox="0 0 24 24">
         <path fill="white" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
       </div>
-    </div>
 
+      <br>
+      
+      <a href="/contact.php">Contact</a>
+    </div> <!-- End of footer -->
 
     <b><p align="center" class="text-muted copyright">&copy; clientsformentalhealthspecialists.com</p></b> 
 
