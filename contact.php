@@ -20,7 +20,7 @@
       <title>Clients for Counsellors: Contact</title>
 
       <!-- CSS stylesheets -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/navbar.css" />
       <link rel="stylesheet" type="text/css" href="css/contact-page-styling.css" />
     
@@ -38,42 +38,36 @@
 
   <body>
     <div class="contact-banner">
-      <nav class="navbar navbar-default navbar-static navbar-transparent" role="navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark static-top">
         <div class="container">
-          <!-- Start navbar-header -->
-          <div class="navbar-header">
-            <a class="navbar-brand" href="/">
-            <img alt="clients-for-counsellors-logo" src="main_images/clients-for-counsellors-logo.png" class="logo"></a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=" .navbar-collapse">
-              <span class="sr-only">Toggle navigation </span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div> <!-- End navbar-header -->
-      
-          <!-- Start navbar collapse -->
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li align="center"> <a href="../contact.php">Contact</a></li>
+          <a class="navbar-brand" href="/">
+            <img src="images/main/clients-for-counsellors-logo.png" alt="clients-for-counsellors-logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="d-flex flex-row justify-content-center navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.php">Contact</a>
+              </li>
             </ul>
-          </div> <!-- End navbar-collapse -->
+          </div>
         </div>
-
       </nav>
 
       <!-- Start contact-heading -->
       <div class="row" id="contact-heading">
 
         <div class="col-md-4 col-md-offset-4">
-          <h3 align="center">CONTACT</h3><br /><br>                  
+          <h1 align="center">CONTACT</h1><br><br>                  
         </div> <!--- col-md -->
 
       </div> <!--- contact-heading -->
     </div> <!-- End contact-banner -->
 
 
-    <div id="con" class="col-md-12 emailForm" align="center">
+    <div class="col-md-12 contact-form" align="center">
 
     <br><br>
 
@@ -94,7 +88,7 @@
 
       <!-- Start form-group -->
       <div class="form-group">
-        <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php echo $_POST['email']; ?>" />
+        <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php echo $_POST['email']; ?>">
         <?php
           $email = htmlspecialchars($_POST['email']);
           if (isset($_POST['submit']) && empty($email)) {
@@ -112,7 +106,7 @@
       <div class="form-group center-block">
 
         <div align="center" class="form-group center-block">
-          <textarea class="form-control" name="message" placeholder="Message"><?php echo $_POST['message']; ?></textarea><br><br>
+          <textarea class="message-box" name="message" placeholder="Message"><?php echo $_POST['message']; ?></textarea><br><br>
           <?php
             $message = htmlspecialchars($_POST['message']);
             if (isset($_POST['submit']) && empty($message)) {
@@ -148,13 +142,13 @@
         }   
       ?>
 
-      <p align="center" ><input type="submit" name="submit" class="btn-lg submit" value="Send Message" /></p><br />
+      <p align="center"><input type="submit" name="submit" class="btn-lg submit" value="Send Message"></p><br>
 
     </form>
 
-        </div> <!-- End emailForm -->
-      </div> <!-- End row -->
-    </div> <!-- End 'Contact Us' form -->
+        </div>
+      </div>
+    </div> 
 
     <div id="footer" align="center">
       <div>
@@ -165,16 +159,15 @@
 
       <br>
       
-      <a href="/contact.php">Contact</a>
+      <a href="contact.php">Contact</a>
     </div> <!-- End of footer -->
 
-    <b><p align="center" class="text-muted copyright">&copy; clientsformentalhealthspecialists.com</p></b>
-
+    <b><p align="center" class="copyright">&copy; clientsforcounsellors.com</p></b>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/bootstrap.min.js" crossorigin="anonymous"></script>
 
   </body>
 </html>

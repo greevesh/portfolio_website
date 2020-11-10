@@ -19,10 +19,10 @@
       <title>Clients for Counsellors: Websites, SEO and Social Media</title>
 
       <!-- CSS Stylesheets -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="css/style.css"/>
-      <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
-      <link rel="stylesheet" type="text/css" href="css/get-a-quote-form.css"/>
+      <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/navbar.css">
+      <link rel="stylesheet" type="text/css" href="css/book-a-call-form.css">
 
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -35,66 +35,110 @@
       <link rel="manifest" href="favicon_io/site.webmanifest">
     </head>
 
-
   <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="images/main/clients-for-counsellors-logo.png" alt="clients-for-counsellors-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="d-flex flex-row justify-content-center navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#book-a-call">Book a Call</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.php">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="topbanner">
-      <nav class="navbar navbar-default navbar-static navbar-transparent" role="navigation">
-        <div class="container">
-
-          <div class="navbar-header">
-            <a class="navbar-brand" href="/">
-            <img alt="clients-for-counsellors-logo" src="main_images/clients-for-counsellors-logo.png" class="logo"></a>
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=" .navbar-collapse">
-                  <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-              </button>
-          </div>
-
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li align="center"><a href="#book-a-call">Book a Call</a></li>
-              <li align="center"><a href="contact.php">Contact</a></li>
-            </ul>
-          </div>
-
-        </div> <!-- End container -->
-      </nav>
-
-
-    <h1 align="center">I Help Counsellors <br><span class="get-clients">Get Clients</span></h1>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3" id="result" align="center"></div>
-        </div> 
+      <h1 align="center">I Help Counsellors<br><span class="get-clients">Get Clients</span></h1> 
     </div> <!-- End topbanner -->
 
+   
+    <section class="benefits text-center">
 
-    <div class="row" style="margin: 50px 100px;">
+      <!-- Section heading -->
+      <h2 class="mt-5 p-1">Web Design and Marketing for Counsellors</h2>
+      <!-- Section description -->
+      <h5 class="w-responsive mx-auto mt-5 mb-5">Are you a counsellor that doesn't want to spend all their free time trying to market their business?</h5>
+      <h5 class="w-responsive mx-auto mb-5">I want you to have the following:</h5>
+      <!-- Grid row -->
+      <div class="row">
 
-      <h2 class="latest-articles" style="margin-bottom: 60px;" align="center">Latest Articles</h2>
+        <!-- Grid column -->
+        <div class="col-md-4">
 
-      <div class="article-container col-md-6">
-        <a href="blog/reasons-every-counsellor-needs-website.html"><img class="article-img img-responsive" src="main_images/every-counsellor-needs-website.jpeg" alt="every-counsellor-needs-website">
-        <div class="img-overlay">
-          <p class="img-description" align="center">3 Reasons Why Every Counsellor Needs a Website</p>
+          <img src="images/main/family.png" alt="family-icon">
+          <h4 class="pb-3">More Family Time</h4>
+          <p>Spend more time with the people you care about the most.</p>
+
         </div>
-      </div>
+        <!-- Grid column -->
 
-      <div class="article-container col-md-6">
-      <a href="blog/ways-grow-counselling-business-online.html"><img class="article-img img-responsive" src="main_images/ways-grow-counselling-business-online.jpeg" alt="every-counsellor-needs-website">
-        <div class="img-overlay">
-          <p class="img-description" align="center">4 Ways to Grow Your Counselling Business Online</p>
+        <!-- Grid column -->
+        <div class="col-md-4">
+
+          <img src="images/main/mental-health.png" alt="mental-health-icon">
+          <h4 class="pb-3">A Regained Purpose</h4>
+          <p>Focus on what you do best. Improving the mental well-being of people who really need your help.</p>
+
         </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4">
+
+          <img src="images/main/money.png" alt="money-icon">
+          <h4 class="pb-3">Financial Stability</h4>
+          <p>Stop worrying about when the next client will come. Have a waiting list and restore your sanity!</p>
+
+        </div>
+        <!-- Grid column -->
+
       </div>
+      <!-- Grid row -->
 
-    </div> <!-- End row -->
-
+    </section>
     
-    </a> <!-- This somehow fixes the weird link bug -->
+    <section class="articles text-center">
+      <div class="container">
+
+       <h2 class="latest-articles" align="center">Latest Articles</h2>
+        
+        <div class="row justify-content-center">
+
+          <!-- Grid column -->
+          <div class="col-md-6">
+          
+            <a href="blog/reasons-every-counsellor-needs-website.html"><img class="img-fluid" src="images/main/every-counsellor-needs-website.jpeg" alt="every-counsellor-needs-website"></a>
+            <h4 class="pt-3">3 Reasons Why Every Counsellor Needs a Website</h4>
+            
+          </div>
+          <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6">
+    
+          <a href="blog/ways-grow-counselling-business-online.html"><img class="img-fluid" src="images/main/ways-grow-counselling-business-online.jpeg" alt="ways-grow-counselling-business-online"></a>
+          <h4 class="pt-3">4 Ways To Grow Your Counselling Business Online</h4>
+          
+        </div>
+        <!-- Grid column -->
+
+        </div> <!-- End row -->
+      </div>
+    </section>
 
 
-    <div class="sales-banner"> 
+    <div class="sales-banner mt-5"> 
       <p>Help overcome Britain's mental health crisis while I take care of your online presence.</p>
     </div>
 
@@ -105,19 +149,19 @@
         <div class="row">
 
           <div class="col-md-4" align="center">
-            <img src="main_images/website-design.jpeg" alt="website-design" class="img-responsive">
+            <img src="images/main/website-design.jpeg" alt="website-design" class="img-fluid">
             <h3>Website Design</h3>
-            <p>Starting from £250 for a single page website (once off)</p>
+            <p>Starting from £250 for a single-page website (once off)</p>
           </div>
 
           <div class="col-md-4" align="center">
-            <img src="main_images/seo.jpeg" alt="seo" class="img-responsive">
+            <img src="images/main/seo.jpeg" alt="seo" class="img-fluid">
             <h3>SEO</h3>
             <p>Starting from £150 (per month)</p>
           </div>
 
           <div class="col-md-4" align="center">
-            <img src="main_images/social-media.jpg" alt="social-media" class="img-responsive">
+            <img src="images/main/social-media.jpg" alt="social-media" class="img-fluid">
               <h3>Social Media</h3>
               <p>Starting from £200 (per month)</p>
           </div>
@@ -127,16 +171,45 @@
     </div>
 
 
-    <div class="testimonials"> 
-        <div class="testimonial-container">
-          <div align="right">
-            <h2 align="center">Testimonials</h2>
-            <img src="main_images/gloria-testimonial.jpg" alt="gloria-testimonial" class="img-responsive">
-            <p>"Harri was a pleasure to work with! His friendly and can-do attitude, professionalism and knowledge in website building made it really easy for a tech illiterate person like me. He provided very prompt updates and solutions to all my website's problems - nothing was too much trouble for him! I would highly recommend Harri to anyone in need of a website, or if you just need someone to fix a bug or two!"</p>
-            <p class="client-name">- Gloria, London</p>
+    <section class="testimonials text-center">
+
+      <!-- Section heading -->
+      <h2 class="mt-2 mb-5">Testimonials</h2>
+      <!-- Section description -->
+
+        <div class="container">
+        <!-- Grid row -->
+        <div class="row justify-content-center">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-6 mb-md-0 mb-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="card-up">
+            </div>
+              <!-- Avatar -->
+              <div class="avatar mx-auto white">
+                <img src="images/main/client-testimonial-1.jpg" class="rounded-circle img-fluid mt-3"  alt="client-testimonial">
+              </div>
+              <div class="card-body">
+                <!-- Name -->
+                <h4 class="mb-4">Gloria Leung</h4>
+                <hr>
+                <h5>Counsellor, London</h5>
+                <hr>
+                <!-- Quotation -->
+                <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>"Harri was a pleasure to work with! His friendly and can-do attitude, professionalism and knowledge in website building made it really easy for a tech illiterate person like me. He provided very prompt updates and solutions to all my website's problems - nothing was too much trouble for him! I would highly recommend Harri to anyone in need of a website, or if you just need someone to fix a bug or two!"</p>
+              </div>
+            </div>
+            <!-- Card -->
           </div>
-        </div> <!-- End testimonial-container-->
-    </div>  
+          <!-- Grid column -->
+
+        </div>
+      <!-- Grid row -->
+      </div>
+
+    </section>
 
 
     <div class="portfolio">
@@ -144,8 +217,8 @@
       <h2 align="center">Some of My Work</h2>
 
       <div align="center">
-        <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="main_images/sarahs-online-therapy.png" alt="sarahs-online-therapy" class="img-responsive"></a>
-        <h4>Sarah's Online Therapy</h4>
+        <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="images/main/sarahs-online-therapy.png" alt="sarahs-online-therapy" class="img-fluid"></a>
+        <h3 class="mt-3">Sarah's Online Therapy</h3>
       </div>
 
     </div>
@@ -157,7 +230,7 @@
 
       <h2 align="center">Book a Call</h2>
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2"><br>
 
             <form method="post" action="/#book-a-call"><br>
@@ -193,7 +266,7 @@
                 <?php
                   $message = htmlspecialchars($_POST['message']);
                   if (isset($_POST['submit']) && empty($message)) {
-                    $warning = "<span style='color: red'>Please enter a message</span>";
+                    $warning = "<span style='color: red;'>Please enter a message</span>";
                     echo $warning;
                   }
                 ?>
@@ -245,16 +318,15 @@
 
       <br>
       
-      <a href="/contact.php">Contact</a>
+      <a href="contact.php">Contact</a>
+
+      <b><p align="center" class="domain">&copy; clientsforcounsellors.com</p></b>
     </div> <!-- End of footer -->
-
-    <b><p align="center" class="text-muted copyright">&copy; clientsformentalhealthspecialists.com</p></b> 
-
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/bootstrap.min.js" crossorigin="anonymous"></script>
 
   </body>
 </html>

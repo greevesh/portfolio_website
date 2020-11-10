@@ -1,13 +1,20 @@
-.logo {
-    width: 90%;
-    margin-top: -20px;
+body {
+	font-family: 'Montserrat', sans-serif;
 }
-.navbar {
-    border-radius: 0;
-    background: #3c417e;
-    height: auto;
-    width: 100%;
+
+h2, h3, h4 {
+	font-weight: bold !important;
+	color: #454867;
 }
+
+h3 {
+	font-size: 28px;
+}
+
+p {
+	color: rgb(63, 63, 63);
+}
+
 .contact-banner {
     background-image: url(https://images.pexels.com/photos/3769120/pexels-photo-3769120.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     background-size: 100% 100%;
@@ -15,14 +22,17 @@
     background-repeat: no-repeat;
     height: 500px;
 }
+
 .row {
     padding: 0;
     margin: 0;
     border: none;
+    display: flex;
+    justify-content: center;
 }
-.contact-banner h3 {
-    font-size: 60px !important;
-    font-family: Montserrat, sans-serif;
+
+.contact-banner h1 {
+    font-size: 60px;
     color: #fff;
     text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
     border: 2px solid #fff;
@@ -33,227 +43,218 @@
     font-weight: 700;
     margin-top: 90px;
 }
+
 #contact-heading {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-#result {
-    font-size: 24px !important;
-    font-weight: 700 !important;
-    text-align: center !important;
-}
-.alert {
-    font-size: 24px !important;
-    font-weight: 700 !important;
-    font-family: Montserrat, sans-serif !important;
-    text-align: center !important;
-}
-.contact-heading {
-    font-size: 30px;
-    font-weight: 700;
-    color: #2d2d2d;
-    font-family: Montserrat, sans-serif;
-    margin-bottom: -4px;
-}
-.info {
-    font-size: 17px;
-    color: #494343;
-    font-family: Montserrat, sans-serif;
-}
-.info a {
-    font-size: 16px;
-    color: #686868;
-    font-family: Montserrat, sans-serif;
-}
-.emailForm h4 {
-    font-size: 20px !important;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
-    color: #fff;
-    font-weight: 400 !important;
-    color: #454867;
-}
-.form-control {
-    border: 1px solid #3f3f3f !important;
-    height: 50px !important;
-    font-size: 16px;
-    border-radius: 0;
-    font-family: Montserrat, sans-serif;
-}
-#message {
-    border: 1px solid #3f3f3f !important;
-    border-radius: 0 !important;
-    margin: 0 0 10px 0;
-    height: 120px !important;
-}
-hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    width: 100%;
-    color: ffffff;
-}
-.emailForm {
+
+contact-form {
     height: auto;
     float: center !important;
     background-color: #fff;
 }
-.contactusform h4 {
-    font-size: 20px !important;
-    font-family: Montserrat, sans-serif;
-    width: 500px;
-    position: relative;
-    top: 40px;
-    color: #fff;
-    font-weight: 700;
+
+.form-control {
+    border: 1px solid #a8a2a2 !important;
+    height: 50px !important;
+    font-size: 16px;
+    border-radius: 0;
+    width: 30%;
 }
+
 label {
     font-size: 19px;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
     color: #fff;
     margin-bottom: -1px !important;
     padding-bottom: 10px;
     font-weight: 400;
 }
+
+.input-group-addon {
+    font-size: 18px;
+}
+
+textarea {
+    font-size: 16px !important;
+    color: #3f3f3f;
+    margin-bottom: -1px !important;
+    border-radius: 0 !important;
+    height: 140px !important;
+    border: 1px solid #a8a2a2 !important;
+}
+
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #e5e5e5;
+}
+
+form p {
+    font-size: 25px;
+    color: #616161;
+    line-height: 45px;
+    position: relative;
+    top: 30px;
+}
+
 form {
-    padding: 20px;
-    margin-top: 20px;
+    width: 30%;
+    margin: 30px 0 40px 75px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
 .form-control {
-    width: 60%;
-    height: 7%;
+    font-size: 16px !important;
+    color: #3f3f3f;
+    margin-bottom: -1px !important;
+    border-radius: 0 !important;
+    height: 60px !important;
+    width: 100%;
 }
-.contact-heading img {
-    margin-top: -5px;
+
+.message-box {
+    width: 100%;
+    border-color: #3f3f3f;
 }
+
+select {
+    font-size: 16px !important;
+    color: #3f3f3f;
+    margin-bottom: -1px !important;
+    border-radius: 0 !important;
+    height: 60px !important;
+}
+
+option {
+    font-size: 16px !important;
+    font-family: Montserrat, sans-serif !important;
+    color: #3f3f3f;
+}
+
+#message {
+    font-size: 16px !important;
+    color: #3f3f3f;
+}
+
+option {
+    color: #565656 !important;
+}
+
+label {
+    margin-bottom: -1px !important;
+    margin-left: 5px;
+}
+
+.form-question {
+    font-size: 16px !important;
+    color: #4c4c4c !important;
+    padding-bottom: 8px;
+    padding-top: 15px;
+    float: left;
+}
+
+.form-group {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .submit {
     background-color: #d66109;
-    border-radius: 0;
     color: #fff !important;
-    font-size: 22px;
-    padding: 12px 40px 12px 40px;
-    border: 4px solid #d66109;
+    border-radius: 0;
+    height: auto;
     font-weight: 700;
-    font-family: Montserrat, sans-serif;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-    height: 100%;
+    font-size: 22px !important;
+    margin-top: -80px !important;
+    border: 5px solid #d66109;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+.submit a {
+    color: #fff !important;
+}
+
 .submit:hover {
     color: #fff;
     background-color: #d66109;
     border-color: #d66109;
     opacity: 0.9;
 }
-@media (max-width: 330px) {
-    .btn-success {
-        font-size: 16px;
-        width: 100%;
-    }
+
+.submit:hover::after {
+    opacity: 1;
+    right: 180px;
 }
-.btn-success:hover {
-    color: #fff;
-    background-color: #d66109;
-    border-color: #d66109;
-    opacity: 0.9;
-}
-.emailForm {
-    padding-bottom: 30px !important;
-}
-#agent-call {
-    margin-top: -10px;
-}
+
 @media only screen and (max-width: 480px) {
-    .logo {
-        width: 90%;
-        margin-top: -35px;
+
+    .contact-banner h1 {
+        font-size: 40px;
+        margin-top: 100px;
     }
-    .contact-details {
-        padding-bottom: 20px !important;
-        min-height: 720px;
-    }
-    .contactusform {
-        margin-top: -100px;
+
+    form {
+        width: 100%;
+        margin-left: 0;
+        padding: 60px;
+        box-sizing: border-box;
         background-color: #fff;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
     }
-    .contactusform h4 {
-        font-family: Montserrat, sans-serif;
-        width: 100%;
+
+    .submit {
+        font-size: 18px !important;
+        padding: 5px 5px 5px 5px;
+        height: 100%;
     }
-    .contact-banner h3 {
-        font-size: 35px !important;
-        font-family: Montserrat, sans-serif;
-        color: #fff;
-        position: relative;
-        left: 0;
-        margin-top: 110px;
+
+    input {
+        font-size: 14px !important;
     }
-    .form-control {
-        width: 100%;
-        height: 7%;
+
+    form {
+        padding: 15px;
+        box-sizing: border-box;
+        background-color: #fff;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
     }
-    .contact-details {
-        margin-top: 0;
+
+    .submit {
+        font-size: 20px !important;
     }
 }
+
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
-    .logo {
-        width: 90%;
-        margin-top: -35px;
+
+    .submit {
+        font-size: 22px !important;
     }
-    .contact-banner h3 {
-        font-size: 55px !important;
-        font-family: Montserrat, sans-serif;
-        color: #fff;
-        margin-top: 100px;
-    }
-    .form-control {
-        width: 60%;
-        height: 7%;
-    }
-    .contactusform h4 {
-        width: 100%;
-    }
-    .emailForm {
-        padding-bottom: 100px !important;
-    }
-    .contactusform h4 {
-        font-family: Montserrat, sans-serif;
+
+    form {
         width: 80%;
+        margin-left: 60px;
+        padding: 40px;
+        box-sizing: border-box;
+        background-color: #fff;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .contact-banner h3 {
-        font-size: 60px !important;
-        font-family: Montserrat, sans-serif;
-        color: #fff;
-        border: 0 solid #fff;
-        margin-top: 100px;
-    }
-    .form-control {
-        width: 50%;
-        height: 7%;
-    }
-}
-@media (max-width: 1169px) {
-    .logo {
-        margin-top: -35px;
-    }
-}
-@media only screen and (min-width: 1170px) {
-    .logo {
-        width: 90%;
-        margin-top: -20px;
-    }
-    .contact-details {
-        background-color: #2e3337;
-        max-height: 800px;
-        min-height: 800px;
-        margin-top: -60px;
-    }
-    .contact-info {
-        margin-top: 120px;
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+
+    form {
+        width: 80%;
+        margin-left: 50px;
+        padding: 40px;
+        box-sizing: border-box;
+        background-color: #fff;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
     }
 }

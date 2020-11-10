@@ -1,1 +1,146 @@
-body{background-color:#fcfcfc;width:100%}.navbar{border-radius:0;background:#3c417e;height:auto;width:100%}.row{padding:0;margin:0;border:none}.blog-banner{height:400px;width:100%}.authordate{font-size:12px!important;color:#7a7a7a;font-family:Montserrat,sans-serif}.blogtext h1{color:#383838;font-size:31px;font-family:Montserrat,sans-serif;line-height:29px}.blog-content h3{font-weight:700;color:#353535;font-family:Montserrat,sans-serif;font-size:32px}.blogtext p{color:#2b2b2b;font-size:23px;font-family:Montserrat,sans-serif;line-height:47px;white-space:normal;padding-left:25px;padding-right:15px}.blogtext li{color:#2b2b2b;font-size:17px;font-family:Montserrat,sans-serif;line-height:29px}.blogtext a{color:rgba(41,42,56)!important}table{color:#4a4a4a!important;font-size:17px!important;font-family:Montserrat,sans-serif!important;line-height:29px!important}.blogtext{margin-top:-40px;background-color:#fcfcfc!important}.blogtext a{font-weight:700}.jumbotron{background-color:#fff}.heading h1{color:#353535!important;font-family:Montserrat,sans-serif;font-weight:700;font-size:42px;padding-bottom:30px}.banner{height:auto;float:center;margin-top:20px}.banner img{width:60%;margin-top:20px}a:hover{color:#b0b0b0!important;text-decoration:none}@media only screen and (max-width:480px){.heading h1{padding-bottom:60px}.banner img{width:80%!important;height:100%}.heading h1{margin-top:20px}}@media only screen and (min-width:480px) and (max-width:1024px){.banner img{width:80%!important;height:100%}.heading h1{margin-top:20px}.blogtext p{padding-top:30px}}
+body {
+    background-color: #fcfcfc;
+    width: 100%;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.blog-banner {
+    height: 400px;
+    width: 100%;
+}
+
+.authordate {
+    font-size: 12px !important;
+    color: #7a7a7a;
+    font-family: Montserrat, sans-serif;
+}
+
+.blogtext h1 {
+    color: #383838;
+    font-size: 31px;
+    font-family: Montserrat, sans-serif;
+    line-height: 29px;
+}
+
+.other-post-card {
+    margin-bottom: -850px;
+}
+
+.blog-content h3 {
+    font-weight: 700;
+    color: #353535;
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+}
+
+.blogtext p {
+    color: #2b2b2b;
+    font-size: 23px;
+    font-family: Montserrat, sans-serif;
+    line-height: 47px;
+    white-space: normal;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.blogtext li {
+    color: #2b2b2b;
+    font-size: 17px;
+    font-family: Montserrat, sans-serif;
+    line-height: 29px;
+}
+
+.blogtext a {
+    color: rgba(41, 42, 56) !important;
+}
+
+.blogtext {
+    margin-top: -40px;
+    background-color: #fcfcfc !important;
+    width: 100%;
+}
+
+.blogtext a {
+    font-weight: 700;
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.heading h1 {
+    color: #353535 !important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    padding-bottom: 30px;
+}
+
+.banner {
+    height: auto;
+    float: center;
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 60%;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #b0b0b0 !important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .heading h1 {
+        padding-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .banner img {
+        width: 80% !important;
+        height: 100%;
+    }
+
+    .other-post-card {
+        display: none;
+    }
+
+    .blogtext p {
+        width: 110%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+
+    .banner img {
+        width: 80% !important;
+        height: 100%;
+    }
+
+    .heading h1 {
+        margin-top: 20px;
+    }
+
+    .other-post-card {
+        display: none;
+    }
+    
+    .blogtext p {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .other-post-card-mobile {
+        display: none;
+    }
+}
