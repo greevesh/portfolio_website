@@ -119,19 +119,38 @@
           <div class="col-md-6">
           
             <a href="blog/reasons-every-counsellor-needs-website.html"><img class="img-fluid" src="images/main/every-counsellor-needs-website.jpeg" alt="every-counsellor-needs-website"></a>
+            <br><br>
+            <b>4. Sep, 2020</b>
             <h4 class="pt-3">3 Reasons Why Every Counsellor Needs a Website</h4>
             
           </div>
           <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-6">
-    
-          <a href="blog/ways-grow-counselling-business-online.html"><img class="img-fluid" src="images/main/ways-grow-counselling-business-online.jpeg" alt="ways-grow-counselling-business-online"></a>
-          <h4 class="pt-3">4 Ways To Grow Your Counselling Business Online</h4>
-          
+          <!-- Grid column -->
+          <div class="col-md-6">
+      
+            <a href="blog/ways-grow-counselling-business-online.html"><img class="img-fluid art-img-2" src="images/main/ways-grow-counselling-business-online.jpeg" alt="ways-grow-counselling-business-online"></a>
+            <br><br>
+            <b>15. Oct, 2020</b>
+            <h4 class="pt-3">4 Ways To Grow Your Counselling Business Online</h4>
+            
+          </div>
+          <!-- Grid column -->
+
+        <div class="row justify-content-center mt-1">
+
+          <!-- Grid column -->
+          <div class="col-md-12">
+            
+            <a href="blog/reasons-every-counsellor-needs-blog.html"><img class="img-fluid" src="images/main/every-counsellor-needs-blog.jpg" alt="every-counsellor-needs-blog"></a>
+            <br><br>
+            <b>15. Oct, 2020</b>
+            <h4 class="pt-3">5 Reasons Why Every Counsellor Needs a Blog</h4>
+            
+          </div>
+          <!-- Grid column -->
+
         </div>
-        <!-- Grid column -->
 
         </div> <!-- End row -->
       </div>
@@ -143,7 +162,7 @@
     </div>
 
 
-    <div class="services">
+    <div class="services mt-5">
       <div class="container">
         <h2 align="center">I Help Counsellors With...</h2>
         <div class="row">
@@ -276,7 +295,7 @@
 
           <?php 
             if (isset($_POST['submit']) && !$warning) {
-              $to = 'harrigreeves@clientsformentalhealthspecialists.com';
+              $to = 'harri@clientsforcounsellors.com';
               $subject = 'Message request from: ' . $name;
               $body = 'Message Request' . '<br><br>' .
                       'Name: '  . $name . '<br><br>' .
@@ -287,7 +306,7 @@
               $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
               // Optional headers
-              $headers .= 'To: Harri <harrigreeves@clientsformentalhealthspecialists.com>';
+              $headers .= 'To: Harri <harri@clientsforcounsellors.com>';
               $headers .= 'From: Message Request <$email>';
 
               if (!mail($to, $subject, $body, $headers)) {

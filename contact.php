@@ -120,7 +120,7 @@
         
       <?php 
         if (isset($_POST['submit']) && !$warning) {
-          $to = 'harrigreeves@clientsformentalhealthspecialists.com';
+          $to = 'harri@clientsforcounsellors.com';
           $subject = 'Message request from: ' . $name;
           $body = 'Message Request' . '<br><br>' .
                   'Name: '  . $name . '<br><br>' .
@@ -131,7 +131,7 @@
           $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
           // Optional headers
-          $headers .= 'To: Harri <harrigreeves@clientsformentalhealthspecialists.com>';
+          $headers .= 'To: Harri <harri@clientsforcounsellors.com>';
           $headers .= 'From: Message Request <$email>';
 
           if (!mail($to, $subject, $body, $headers)) {
