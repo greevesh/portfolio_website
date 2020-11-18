@@ -144,7 +144,7 @@
             
             <a href="blog/reasons-every-counsellor-needs-blog.html"><img class="img-fluid" src="images/main/every-counsellor-needs-blog.jpg" alt="every-counsellor-needs-blog"></a>
             <br><br>
-            <b>15. Oct, 2020</b>
+            <b>17. Nov, 2020</b>
             <h4 class="pt-3">5 Reasons Why Every Counsellor Needs a Blog</h4>
             
           </div>
