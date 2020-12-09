@@ -14,7 +14,6 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      
       <meta name="description" content="Contact and enquire further about getting more clients for your counselling business. Please fill in the form if you have any other questions.">
 
       <title>Clients for Counsellors: Contact</title>
@@ -41,7 +40,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark static-top">
         <div class="container">
           <a class="navbar-brand" href="/">
-            <img src="images/main/clients-for-counsellors-logo-min.png" alt="clients-for-counsellors-logo">
+            <img src="images/main/clients-for-counsellors-logo.png" alt="clients-for-counsellors-logo">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
