@@ -20,18 +20,18 @@
 
       <!-- CSS stylesheets -->
       <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="css/navbar.css" />
-      <link rel="stylesheet" type="text/css" href="css/contact-page-styling.css" />
+      <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
+      <link rel="stylesheet" type="text/css" href="/css/contact-page-styling.css" />
     
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lato|Raleway" rel="stylesheet">
         
       <!-- Favicon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-      <link rel="manifest" href="favicon_io/site.webmanifest">
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="/favicon_io/site.webmanifest">
     </head>
 
 
@@ -48,7 +48,13 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="d-flex flex-row justify-content-center navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link text-white" href="contact.php">Contact</a>
+                <a class="nav-link text-white" href="/growth-tips.html">Growth Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#book-a-call">Book a Call</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/contact.php">Contact</a>
               </li>
             </ul>
           </div>
@@ -59,7 +65,8 @@
       <div class="row" id="contact-heading">
 
         <div class="col-md-4 col-md-offset-4">
-          <h1 align="center">CONTACT</h1><br><br>                  
+          <h1 align="center">CONTACT</h1>
+          <br><br>                  
         </div> <!--- col-md -->
 
       </div> <!--- contact-heading -->
@@ -158,7 +165,7 @@
 
       <br>
       
-      <a href="contact.php">Contact</a>
+      <a href="/contact.php">Contact</a>
     </div> <!-- End of footer -->
 
     <b><p align="center" class="copyright">&copy; clientsforcounsellors.com</p></b>

@@ -20,19 +20,19 @@
 
       <!-- CSS Stylesheets -->
       <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="stylesheet" type="text/css" href="css/navbar.css">
-      <link rel="stylesheet" type="text/css" href="css/book-a-call-form.css">
+      <link rel="stylesheet" type="text/css" href="/css/style.css">
+      <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+      <link rel="stylesheet" type="text/css" href="/css/book-a-call-form.css">
 
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital@1&display=swap" rel="stylesheet">
 
       <!-- Favicon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-      <link rel="manifest" href="favicon_io/site.webmanifest">
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="/favicon_io/site.webmanifest">
     </head>
 
   <body>
@@ -40,7 +40,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark static-top">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="images/main/clients-for-counsellors-logo.png" alt="clients-for-counsellors-logo">
+          <img src="/images/main/clients-for-counsellors-logo.png" alt="clients-for-counsellors-logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,10 +48,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="d-flex flex-row justify-content-center navbar-nav ml-auto">
             <li class="nav-item">
+              <a class="nav-link text-white" href="/growth-tips.html">Growth Tips</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link text-white" href="#book-a-call">Book a Call</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="contact.php">Contact</a>
+              <a class="nav-link text-white" href="/contact.php">Contact</a>
             </li>
           </ul>
         </div>
@@ -76,7 +79,7 @@
         <!-- Grid column -->
         <div class="col-md-4">
 
-          <img src="images/main/family-icon.png" alt="family-icon">
+          <img src="/images/main/family-icon.png" alt="family-icon">
           <h4 class="pb-3">More Family Time</h4>
           <p>Spend more time with the people you care about the most.</p>
 
@@ -86,7 +89,7 @@
         <!-- Grid column -->
         <div class="col-md-4">
 
-          <img src="images/main/mental-health-icon.png" alt="mental-health-icon">
+          <img src="/images/main/mental-health-icon.png" alt="mental-health-icon">
           <h4 class="pb-3">A Regained Purpose</h4>
           <p>Focus on what you do best. Improving the mental well-being of people who really need your help.</p>
 
@@ -96,7 +99,7 @@
         <!-- Grid column -->
         <div class="col-md-4">
 
-          <img src="images/main/money-icon.png" alt="money-icon">
+          <img src="/images/main/money-icon.png" alt="money-icon">
           <h4 class="pb-3">Financial Stability</h4>
           <p>Stop worrying about when the next client will come. Have a waiting list and restore your sanity!</p>
 
@@ -116,20 +119,9 @@
         <div class="row justify-content-center">
 
           <!-- Grid column -->
-          <div class="col-md-6">
-          
-            <a href="blog/counsellor-needs-website.html"><img class="img-fluid" src="images/main/counsellor-needs-website.jpeg" alt="counsellor-needs-website"></a>
-            <br><br>
-            <b>4. Sep, 2020</b>
-            <h4 class="pt-3">3 Reasons Why Every Counsellor Needs a Website</h4>
-            
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-6">
+          <div class="col-md-4">
       
-            <a href="blog/grow-counselling-business-online.html"><img class="img-fluid" src="images/main/grow-counselling-business-online.jpeg" alt="grow-counselling-business-online"></a>
+            <a href="/growth-tips/grow-counselling-business-online.html"><img class="img-fluid" src="/images/main/grow-counselling-business-online.jpeg" alt="grow-counselling-business-online"></a>
             <br><br>
             <b>15. Oct, 2020</b>
             <h4 class="pt-3">4 Ways To Grow Your Counselling Business Online</h4>
@@ -137,31 +129,27 @@
           </div>
           <!-- Grid column -->
 
-        <div class="row justify-content-center mt-5">
-
           <!-- Grid column -->
-          <div class="col-md-6">
+          <div class="col-md-4">
             
-            <a href="blog/counsellor-needs-blog.html"><img class="img-fluid" src="images/main/counsellor-needs-blog.jpg" alt="counsellor-needs-blog"></a>
+            <a href="/growth-tips/counsellor-needs-blog.html"><img class="img-fluid" src="/images/main/counsellor-needs-blog.jpg" alt="counsellor-needs-blog"></a>
             <br><br>
             <b>17. Nov, 2020</b>
-            <h4 class="pt-3">5 Reasons Why Every Counsellor Needs a Blog</h4>
+            <h4 class="pt-3">5 Reasons Why Every Counsellor Needs a /blog</h4>
             
           </div>
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-6">
+          <div class="col-md-4">
             
-            <a href="blog/online-counsellors-need-seo-services.html"><img class="img-fluid" src="images/main/online-counsellors-need-seo-services.jpg" alt="online-counsellors-need-seo-services"></a>
+            <a href="/growth-tips/counsellors-need-seo-services.html"><img class="img-fluid" src="/images/main/counsellors-need-seo-services.jpg" alt="counsellors-need-seo-services"></a>
             <br><br>
             <b>6. December, 2020</b>
             <h4 class="pt-3">5 Reasons Why Online Counsellors Need SEO Services</h4>
             
           </div>
           <!-- Grid column -->
-
-        </div>
 
         </div> <!-- End row -->
       </div>
@@ -179,19 +167,19 @@
         <div class="row">
 
           <div class="col-md-4" align="center">
-            <img src="images/main/website-design.jpeg" alt="website-design" class="img-fluid">
+            <img src="/images/main/website-design.jpeg" alt="website-design" class="img-fluid">
             <h3>Website Design</h3>
             <p>Starting from £250 for a single-page website (once off)</p>
           </div>
 
           <div class="col-md-4" align="center">
-            <img src="images/main/seo.jpeg" alt="seo" class="img-fluid">
+            <img src="/images/main/seo.jpeg" alt="seo" class="img-fluid">
             <h3>SEO</h3>
             <p>Starting from £150 (per month)</p>
           </div>
 
           <div class="col-md-4" align="center">
-            <img src="images/main/social-media.jpg" alt="social-media" class="img-fluid">
+            <img src="/images/main/social-media.jpg" alt="social-media" class="img-fluid">
               <h3>Social Media</h3>
               <p>Starting from £200 (per month)</p>
           </div>
@@ -219,7 +207,7 @@
             </div>
               <!-- Avatar -->
               <div class="avatar mx-auto white">
-                <img src="images/main/client-testimonial-1.jpg" class="rounded-circle img-fluid mt-3"  alt="client-testimonial">
+                <img src="/images/main/client-testimonial-1.jpg" class="rounded-circle img-fluid mt-3"  alt="client-testimonial">
               </div>
               <div class="card-body">
                 <!-- Name -->
@@ -247,7 +235,7 @@
       <h2 align="center">Some of My Work</h2>
 
       <div align="center">
-        <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="images/main/sarahs-online-therapy.png" alt="online-therapy" class="img-fluid"></a>
+        <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="/images/main/sarahs-online-therapy.png" alt="online-therapy" class="img-fluid"></a>
         <h3 class="mt-3">Sarah's Online Therapy</h3>
       </div>
 
