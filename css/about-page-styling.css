@@ -1,0 +1,37 @@
+p {
+    font-weight: 500;
+    line-height: 2;
+    font-size: 16px;
+    color: black;
+}
+
+a { 
+    color: #10a8ad;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #D95E61;
+    text-decoration: none;
+}
+
+.profile-pic {
+    height: 250px;
+    width: 250px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 480px) {
+
+	h2, h3 {
+        text-align: center;
+    }
+
+    .profile-pic-container {
+        text-align: center;
+    }
+
+    .free-website-analysis-strip p {
+        font-size: 14px;
+    }
+}

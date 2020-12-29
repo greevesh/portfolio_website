@@ -22,47 +22,57 @@
       <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="/css/style.css">
       <link rel="stylesheet" type="text/css" href="/css/navbar.css">
-      <link rel="stylesheet" type="text/css" href="/css/book-a-call-form.css">
+      <link rel="stylesheet" type="text/css" href="/css/website-analysis-form.css">
 
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital@1&display=swap" rel="stylesheet">
 
       <!-- Favicon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
-      <link rel="manifest" href="/favicon_io/site.webmanifest">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="favicon_io/site.webmanifest">
     </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark static-top">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="/">
-          <img src="/images/main/clients-for-counsellors-logo.png" alt="clients-for-counsellors-logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a href="/"><img class="logo" src="/images/main/clients-for-counsellors-logo.png" alt="clients-for-counsellors-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="d-flex flex-row justify-content-center navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/growth-tips.html">Growth Tips</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#book-a-call">Book a Call</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/contact.php">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/#free-website-analysis">Free Website Analysis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/packages.html">Packages/FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/growth-tips.html">Growth Tips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.php">Contact</a>
+          </li>
+        </ul>
+      </div>
       </div>
     </nav>
 
     <div class="topbanner">
       <h1 align="center">I Help Counsellors<br><span class="get-clients">Get Clients</span></h1> 
+      <div class="free-website-analysis" align="center">
+        <br>
+        <strong><h2>Already Have a Website?</h2></strong>
+        <br>
+        <a href="#free-website-analysis"><strong>Get My Free Website Analysis</strong></a>
+      </div>
     </div> <!-- End topbanner -->
 
    
@@ -72,6 +82,7 @@
       <h2 class="mt-5 p-1">Web Design and Marketing for Counsellors</h2>
       <!-- Section description -->
       <h5 class="w-responsive mx-auto mt-5 mb-5">Are you a counsellor that doesn't want to spend all their free time trying to market their business?</h5>
+      <h5 class="w-responsive mx-auto mb-5">I don't want you to either... </h5>
       <h5 class="w-responsive mx-auto mb-5">I want you to have the following:</h5>
       <!-- Grid row -->
       <div class="row">
@@ -111,20 +122,20 @@
 
     </section>
     
-    <section class="articles text-center">
+    <section class="text-center">
       <div class="container">
 
-       <h2 class="latest-articles" align="center">Latest Articles</h2>
+       <h2 class="growth-tips" align="center">Growth Tips <span class="growth-emoji">🌱</span></h2>
         
         <div class="row justify-content-center">
 
           <!-- Grid column -->
           <div class="col-md-4">
       
-            <a href="/growth-tips/grow-counselling-business-online.html"><img class="img-fluid" src="/images/main/grow-counselling-business-online.jpeg" alt="grow-counselling-business-online"></a>
+            <a href="/growth-tips/grow-counselling-business-online.html"><img class="img-fluid growth-tips-img" src="/images/main/grow-counselling-business-online.jpeg" alt="grow-counselling-business-online"></a>
             <br><br>
             <b>15. Oct, 2020</b>
-            <h4 class="pt-3">4 Ways To Grow Your Counselling Business Online</h4>
+            <a href="/growth-tips/grow-counselling-business-online.html"><h4 class="article-title">4 Ways To Grow Your Counselling Business Online</h4></a>
             
           </div>
           <!-- Grid column -->
@@ -132,10 +143,10 @@
           <!-- Grid column -->
           <div class="col-md-4">
             
-            <a href="/growth-tips/counsellor-needs-blog.html"><img class="img-fluid" src="/images/main/counsellor-needs-blog.jpg" alt="counsellor-needs-blog"></a>
+            <a href="/growth-tips/counsellor-needs-blog.html"><img class="img-fluid growth-tips-img" src="/images/main/counsellor-needs-blog.jpg" alt="counsellor-needs-blog"></a>
             <br><br>
             <b>17. Nov, 2020</b>
-            <h4 class="pt-3">5 Reasons Why Every Counsellor Needs a /blog</h4>
+            <a href="/growth-tips/counsellor-needs-blog.html"><h4 class="article-title">5 Reasons Why Every Counsellor Needs a Blog</h4></a>
             
           </div>
           <!-- Grid column -->
@@ -143,13 +154,15 @@
           <!-- Grid column -->
           <div class="col-md-4">
             
-            <a href="/growth-tips/counsellors-need-seo-services.html"><img class="img-fluid" src="/images/main/counsellors-need-seo-services.jpg" alt="counsellors-need-seo-services"></a>
+            <a href="/growth-tips/counsellors-need-seo-services.html"><img class="img-fluid growth-tips-img" src="/images/main/counsellors-need-seo-services.jpg" alt="counsellors-need-seo-services"></a>
             <br><br>
             <b>6. December, 2020</b>
-            <h4 class="pt-3">5 Reasons Why Online Counsellors Need SEO Services</h4>
+            <a href="/growth-tips/counsellors-need-seo-services.html"><h4 class="article-title">5 Reasons Why Online Counsellors Need SEO Services</h4></a>
             
           </div>
           <!-- Grid column -->
+
+          <a class="more-growth-tips" href="/growth-tips.html"><strong>More Growth Tips</strong></a>
 
         </div> <!-- End row -->
       </div>
@@ -164,35 +177,35 @@
     <div class="services mt-5">
       <div class="container">
         <h2 align="center">I Help Counsellors With...</h2>
-        <div class="row">
+        <div class="row justify-content-center">
 
           <div class="col-md-4" align="center">
-            <img src="/images/main/website-design.jpeg" alt="website-design" class="img-fluid">
-            <h3>Website Design</h3>
-            <p>Starting from £250 for a single-page website (once off)</p>
+            <a href="/about.html#web-design"><img src="/images/main/website-design.jpeg" alt="web-design" class="img-fluid"></a>
+            <a href="/about.html#web-design"><h3>Web Design</h3></a>
           </div>
 
           <div class="col-md-4" align="center">
-            <img src="/images/main/seo.jpeg" alt="seo" class="img-fluid">
-            <h3>SEO</h3>
-            <p>Starting from £150 (per month)</p>
+            <a href="/about.html#seo"><img src="/images/main/seo.jpeg" alt="seo" class="img-fluid"></a>
+            <a href="/about.html#seo"><h3>SEO</h3></a>
           </div>
 
           <div class="col-md-4" align="center">
-            <img src="/images/main/social-media.jpg" alt="social-media" class="img-fluid">
-              <h3>Social Media</h3>
-              <p>Starting from £200 (per month)</p>
+            <a href="/about.html#social-media"><img src="/images/main/social-media.jpg" alt="social-media" class="img-fluid"></a>
+            <a href="/about.html#social-media"><h3>Social Media Management</h3></a>
           </div>
+
+          <a class="packages" href="/packages.html"><strong>See Packages</strong></a>
 
         </div> <!--- End row-->
       </div> <!-- End container-->
     </div>
 
+    <br><br><br>
 
     <section class="testimonials text-center">
 
       <!-- Section heading -->
-      <h2 class="mt-2 mb-5">Testimonials</h2>
+      <h2 class="mt-2 mb-5">Kind Words From Nice Folks</h2>
       <!-- Section description -->
 
         <div class="container">
@@ -216,7 +229,33 @@
                 <h5>Counsellor, London</h5>
                 <hr>
                 <!-- Quotation -->
-                <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>"Harri was a pleasure to work with! His friendly and can-do attitude, professionalism and knowledge in website building made it really easy for a tech illiterate person like me. He provided very prompt updates and solutions to all my website's problems - nothing was too much trouble for him! I would highly recommend Harri to anyone in need of a website, or if you just need someone to fix a bug or two!"</p>
+                <p class="test-paragraph dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>"Harri was a pleasure to work with! His friendly and can-do attitude, professionalism and knowledge in website building made it really easy for a tech illiterate person like me.<span class="dots">...</span><span class="read-more"> He provided very prompt updates and solutions to all my website's problems - nothing was too much trouble for him! I would highly recommend Harri to anyone in need of a website, or if you just need someone to fix a bug or two!"</span></p>
+                <button onclick="readMore()" class="read-more-btn">Read More</button>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <!-- Grid column -->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-6 mb-md-0 mb-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="card-up">
+            </div>
+              <!-- Avatar -->
+              <div class="avatar mx-auto white">
+                <img src="/images/main/client-testimonial-2.jpeg" class="rounded-circle img-fluid mt-3" alt="client-testimonial">
+              </div>
+              <div class="card-body">
+                <!-- Name -->
+                <h4 class="mb-4">Tommy Hammond</h4>
+                <hr>
+                <h5>CBT Counsellor, Bristol</h5>
+                <hr>
+                <!-- Quotation -->
+                <p class="test-paragraph dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>"Harrison has been continually knowledgeable, patient, professional, and overall a fantastic help. He is clearly well informed in the digital marketing and web design field.<span class="dots">...</span><span class="read-more"> He always gives timely responses which are clear and helpful. The finished site looks professional and inviting – just what I wanted. I will recommend him to my colleagues. Thanks again, Harri."</span></p>
+                <button onclick="readMore()" class="read-more-btn">Read More</button>
               </div>
             </div>
             <!-- Card -->
@@ -242,18 +281,27 @@
     </div>
 
 
-    <div id="book-a-call" class="book-a-call"> 
+    
+    <div id="free-website-analysis" class="website-analysis-form"> 
       
       <br>
 
-      <h2 align="center">Book a Call</h2>
+      <h2 align="center">Free Website Analysis</h2>
+      <br><br>
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2"><br>
 
-            <form method="post" action="/#book-a-call"><br>
+          <div class="col-md-6 mt-5 instructions">
+            <h5>Fill in the form and I'll email you a bullet-listed PDF analysis detailing everything that could be improved with your website within 24 hours.</h5>
+            <br>
+            <h5>Or just send me a message with your website address on Facebook by clicking the Messenger icon.</h5>
+          </div>
+
+          <div class="col-md-6 col-sm-8-offset-2"><br>
+
+            <form method="post" action="/#free-website-analysis"><br>
               <div align="center" class="form-group center-block">
-                <input type="text" name="name" class="form-control" placeholder="Name" value="<?php echo $_POST['name']; ?>">
+                <input required type="text" name="name" class="form-control" placeholder="Name" value="<?php echo $_POST['name']; ?>">
                 <?php
                   $name = htmlspecialchars($_POST['name']);
                   if (isset($_POST['submit']) && empty($name)) {
@@ -264,7 +312,7 @@
               </div>
 
               <div align="center" class="form-group center-block">
-                <input type="email" name="email" class="form-control" placeholder="Email" value="<?php echo $_POST['email']; ?>">
+                <input required type="email" name="email" class="form-control" placeholder="Email" value="<?php echo $_POST['email']; ?>">
                 <?php
                   $email = htmlspecialchars($_POST['email']);
                   if (isset($_POST['submit']) && empty($email)) {
@@ -276,17 +324,24 @@
                     echo $warning;
                   }
                 ?>
-              </div> <!-- End form-group-->  
+              </div>  
+
+              <div align="center" class="form-group center-block">
+                <input required type="url" name="url" class="form-control" placeholder="Website URL" value="https://">
+                <?php
+                  $email = htmlspecialchars($_POST['email']);
+                  if (isset($_POST['submit']) && empty($email)) {
+                    $warning = "<span style='color: red'>Please enter your website url</span>";
+                    echo $warning;
+                  }
+                ?>
+              </div> 
 
               <div class="form-group center-block">
                 <div align="center" class="form-group center-block">
                 <textarea class="form-control" name="message" placeholder="Message"><?php echo $_POST['message']; ?></textarea><br><br>
                 <?php
                   $message = htmlspecialchars($_POST['message']);
-                  if (isset($_POST['submit']) && empty($message)) {
-                    $warning = "<span style='color: red;'>Please enter a message</span>";
-                    echo $warning;
-                  }
                 ?>
               </div>
 
@@ -318,7 +373,10 @@
 
               <br>
 
-              <button id="submitBtn" type="submit" name="submit" class="btn-lg submit"><a align="center">Book a Call</a><br>
+              <div class="free-website-analysis">
+                <button id="submitBtn" type="submit" name="submit" class="btn-lg submit"><strong>Get My Free Website Analysis</strong></button>
+                <br>
+              </div>
 
             </form> <!-- form -->
           </div>
@@ -326,20 +384,87 @@
       </div> <!-- End container -->
     </div>
 
-
     <div id="footer" align="center">
+
       <div>
+
         <a target="_blank" href="https://www.linkedin.com/in/harrisongreeves/">
-          <svg width="70" height="70" viewBox="0 0 24 24"><path fill="white" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          <svg class="social-icon" width="50" height="50" viewBox="0 0 24 24"><path fill="#0073b1" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
         </a>
+
       </div>
 
       <br>
-      
-      <a href="contact.php">Contact</a>
 
-      <b><p align="center" class="domain">&copy; clientsforcounsellors.com</p></b>
-    </div> <!-- End of footer -->
+      <li class="home">
+        <a href="/">Home</a>
+      </li>
+
+      <br>
+
+      <ul class="d-flex flex-row justify-content-center navbar-nav">
+        <li class="footer-item">
+          <a class="nav-link" href="/#free-website-analysis">Free Website Analysis</a>
+        </li>
+        <li class="footer-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+        <li class="footer-item">
+          <a class="nav-link" href="/packages.html">Packages/FAQ</a>
+        </li>
+        <li class="footer-item">
+          <a class="nav-link" href="/growth-tips.html">Growth Tips</a>
+        </li>
+        <li class="footer-item">
+          <a class="nav-link" href="/contact.php">Contact</a>
+        </li>
+      </ul>
+
+      <div class="policy-links" align="center">
+
+          <a href="/privacy-policy.html" rel="nofollow">Privacy Policy</a> 
+
+          <a href="/terms-and-conditions.html" rel="nofollow">Terms &amp; Conditions</a>
+
+      </div>
+
+      <p align="center" class="domain"><b>&copy; clientsforcounsellors.com</b></p>
+      </div> <!-- End of footer -->
+
+      <!-- Facebook Messenger Widget -->
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-7c3271f0-42e5-4c2c-9fe5-f2891bed3108"></div>
+
+      <!-- Cookie Notification -->
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-94352d8d-7d37-44b9-8e86-9f796c94f96f"></div>
+
+      <script>
+
+        var testParagraph = document.querySelectorAll(".test-paragraph");
+        var i;
+    
+        for (i = 0; i < testParagraph.length; i++) {
+
+          function readMore() {
+
+          var dots = document.querySelector(".dots");
+          var moreText = document.querySelector(".read-more");
+          var btnText = document.querySelector(".read-more-btn");
+
+          if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read More";
+              moreText.style.display = "none";
+          } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read Less";
+              moreText.style.display = "inline";
+            }
+          }
+        }
+
+      </script>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
