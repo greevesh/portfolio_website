@@ -15,7 +15,8 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="I help counsellors based in the UK get clients by providing them with a strong web presence. Namely, through web design, SEO and social media marketing.">
-    
+      <META NAME=”ROBOTS” CONTENT=”NOINDEX, NOFOLLOW”>
+
       <title>Clients for Counsellors: Websites, SEO and Social Media</title>
 
       <!-- CSS Stylesheets -->
@@ -29,10 +30,11 @@
       <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital@1&display=swap" rel="stylesheet">
 
       <!-- Favicon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-      <link rel="manifest" href="favicon_io/site.webmanifest">
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="/favicon_io/site.webmanifest">
+
     </head>
 
   <body>
@@ -79,9 +81,9 @@
     <section class="benefits text-center">
 
       <!-- Section heading -->
-      <h2 class="mt-5 p-1">Web Design and Marketing for Counsellors</h2>
+      <h2 class="mt-5 p-1">Web Design and Marketing for Counsellors and Therapists</h2>
       <!-- Section description -->
-      <h5 class="w-responsive mx-auto mt-5 mb-5">Are you a counsellor that doesn't want to spend all their free time trying to market their business?</h5>
+      <h5 class="w-responsive mx-auto mt-5 mb-5">Are you a counsellor or therapist that doesn't want to spend all their free time trying to market their business?</h5>
       <h5 class="w-responsive mx-auto mb-5">I don't want you to either... </h5>
       <h5 class="w-responsive mx-auto mb-5">I want you to have the following:</h5>
       <!-- Grid row -->
@@ -170,7 +172,7 @@
 
 
     <div class="sales-banner mt-5"> 
-      <p>Help overcome Britain's mental health crisis while I take care of your online presence.</p>
+      <p>Help overcome Britain's mental health crisis while I grow your private practice.</p>
     </div>
 
 
@@ -180,18 +182,21 @@
         <div class="row justify-content-center">
 
           <div class="col-md-4" align="center">
-            <a href="/about.html#web-design"><img src="/images/main/website-design.jpeg" alt="web-design" class="img-fluid"></a>
-            <a href="/about.html#web-design"><h3>Web Design</h3></a>
+            <a href="/about.html#seo"><img src="/images/main/seo.jpg" alt="seo" class="img-fluid"></a>
+            <a href="/about.html#seo"><h3>SEO</h3></a>
+            <p>Have a great-looking website designed to turn visitors into clients? Great! The next step is ranking it as high as possible on Google.</p>
           </div>
 
           <div class="col-md-4" align="center">
-            <a href="/about.html#seo"><img src="/images/main/seo.jpeg" alt="seo" class="img-fluid"></a>
-            <a href="/about.html#seo"><h3>SEO</h3></a>
+            <a href="/about.html#web-design"><img src="/images/main/web-design.jpg" alt="web-design" class="img-fluid"></a>
+            <a href="/about.html#web-design"><h3>Web Design</h3></a>
+            <p>This is the first step towards setting up your counselling/therapy practice. Tailor-made, mobile-friendly websites designed to turn visitors into clients.</p>
           </div>
 
           <div class="col-md-4" align="center">
             <a href="/about.html#social-media"><img src="/images/main/social-media.jpg" alt="social-media" class="img-fluid"></a>
-            <a href="/about.html#social-media"><h3>Social Media Management</h3></a>
+            <a href="/about.html#social-media"><h3>Social Media Marketing</h3></a>
+            <p>Build a loyal following and engage your audience on all the major social media networks. Let them know every week why you are the solution to their problems.</p>
           </div>
 
           <a class="packages" href="/packages.html"><strong>See Packages</strong></a>
@@ -229,8 +234,8 @@
                 <h5>Counsellor, London</h5>
                 <hr>
                 <!-- Quotation -->
-                <p class="test-paragraph dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>"Harri was a pleasure to work with! His friendly and can-do attitude, professionalism and knowledge in website building made it really easy for a tech illiterate person like me.<span class="dots">...</span><span class="read-more"> He provided very prompt updates and solutions to all my website's problems - nothing was too much trouble for him! I would highly recommend Harri to anyone in need of a website, or if you just need someone to fix a bug or two!"</span></p>
-                <button onclick="readMore()" class="read-more-btn">Read More</button>
+                <p class="test-paragraph dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>"Harri was a pleasure to work with! His friendly and can-do attitude, professionalism and knowledge in website building made it really easy for a tech illiterate person like me.<span class="dots">..</span><span class="read-more"> He provided very prompt updates and solutions to all my website's problems - nothing was too much trouble for him! I would highly recommend Harri to anyone in need of a website, or if you just need someone to fix a bug or two!"</span></p>
+                <button class="read-more-btn">Read More</button>
               </div>
             </div>
             <!-- Card -->
@@ -254,8 +259,8 @@
                 <h5>CBT Counsellor, Bristol</h5>
                 <hr>
                 <!-- Quotation -->
-                <p class="test-paragraph dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>"Harrison has been continually knowledgeable, patient, professional, and overall a fantastic help. He is clearly well informed in the digital marketing and web design field.<span class="dots">...</span><span class="read-more"> He always gives timely responses which are clear and helpful. The finished site looks professional and inviting – just what I wanted. I will recommend him to my colleagues. Thanks again, Harri."</span></p>
-                <button onclick="readMore()" class="read-more-btn">Read More</button>
+                <p class="test-paragraph dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>"Harrison has been continually knowledgeable, patient, professional, and overall a fantastic help. He is clearly well informed in the digital marketing and web design field.<span class="dots">..</span><span class="read-more"> He always gives timely responses which are clear and helpful. The finished site looks professional and inviting – just what I wanted. I will recommend him to my colleagues. Thanks again, Harri."</span></p>
+                <button class="read-more-btn">Read More</button>
               </div>
             </div>
             <!-- Card -->
@@ -272,6 +277,8 @@
     <div class="portfolio">
       
       <h2 align="center">Some of My Work</h2>
+
+      <p class="text-muted mb-5" align="center">I create sales-based websites for counsellors, therapists and psychologists.</p>
 
       <div align="center">
         <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="/images/main/sarahs-online-therapy.png" alt="online-therapy" class="img-fluid"></a>
@@ -389,7 +396,7 @@
       <div>
 
         <a target="_blank" href="https://www.linkedin.com/in/harrisongreeves/">
-          <svg class="social-icon" width="50" height="50" viewBox="0 0 24 24"><path fill="#0073b1" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          <svg width="50" height="50" viewBox="0 0 24 24"><path fill="#0073b1" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
         </a>
 
       </div>
@@ -441,28 +448,28 @@
 
       <script>
 
-        var testParagraph = document.querySelectorAll(".test-paragraph");
-        var i;
-    
-        for (i = 0; i < testParagraph.length; i++) {
+        var btnText = document.querySelectorAll(".read-more-btn");
+        var moreText = document.querySelectorAll(".read-more");
+        var dots = document.querySelectorAll(".dots");
 
-          function readMore() {
+        btnText.forEach(function(current_btn, index) {
+            current_btn.addEventListener('click', function() {
+              moreText[index].classList.toggle("read-more");
+              
+              if (dots[index].style.display == "none") {
+                dots[index].style.display = "inline";
+              } else {
+                dots[index].style.display = "none";
+              }
 
-          var dots = document.querySelector(".dots");
-          var moreText = document.querySelector(".read-more");
-          var btnText = document.querySelector(".read-more-btn");
-
-          if (dots.style.display === "none") {
-              dots.style.display = "inline";
-              btnText.innerHTML = "Read More";
-              moreText.style.display = "none";
-          } else {
-              dots.style.display = "none";
-              btnText.innerHTML = "Read Less";
-              moreText.style.display = "inline";
-            }
-          }
-        }
+              if (current_btn.innerText == "Read More") {
+                current_btn.innerText = "Read Less";
+              } else {
+                current_btn.innerText = "Read More";
+              }
+                    
+            });
+        });
 
       </script>
     

@@ -15,6 +15,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Contact and enquire further about getting more clients for your counselling business. Please fill in the form if you have any other questions.">
+      <META NAME=”ROBOTS” CONTENT=”NOINDEX, NOFOLLOW”>
 
       <title>Clients for Counsellors: Contact</title>
 
@@ -27,12 +28,13 @@
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lato|Raleway" rel="stylesheet">
-        
+
       <!-- Favicon -->
       <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
       <link rel="manifest" href="/favicon_io/site.webmanifest">
+
     </head>
 
 
@@ -66,17 +68,14 @@
       </div>
     </nav>
 
-      <!-- Start contact-heading -->
-      <div class="row" id="contact-heading">
-
-        <div class="col-md-4 col-md-offset-4">
+        
           <h1 align="center">Contact</h1>
-          <br><br>                  
-        </div> <!--- col-md -->
 
-      </div> <!--- contact-heading -->
-    </div> <!-- End contact-banner -->
-
+      <div align="center">
+        <img class="img-fluid" src="/images/main/patient-and-counsellor.jpg" alt="patient-and-counsellor">
+      </div>
+    
+    <br><br>                  
 
     <div class="col-md-12 contact-form" align="center">
 

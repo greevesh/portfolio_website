@@ -7,6 +7,10 @@ h1 {
 	font-size: 55px;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .row {
     padding: 0;
     margin: 0;

@@ -1,5 +1,11 @@
-body {
-	font-family: 'Montserrat', sans-serif;
+h1 {
+    color: #454867;
+    font-size: 55px;
+    padding: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    letter-spacing: 1px;
+    margin-top: 50px;
 }
 
 h2, h3, h4 {
@@ -8,11 +14,7 @@ h2, h3, h4 {
 }
 
 h4 {
-    margin-bottom: 100px;
-}
-
-h1 {
-	font-size: 55px;
+    margin-bottom: 50px;
 }
 
 p {
@@ -27,13 +29,9 @@ p {
     justify-content: center;
 }
 
-.contact-banner h1 {
-    color: #454867;
-    padding: 5px;
-    padding-left: 0;
-    padding-right: 0;
-    letter-spacing: 1px;
-    margin: 50px;
+img {
+    height: 400px;
+    margin-bottom: 0;
 }
 
 contact-form {
@@ -153,28 +151,20 @@ label {
 }
 
 .submit {
-    color: #fff !important;
-    border-radius: 0;
-    height: auto;
-    font-weight: 700;
-    margin-top: -80px !important;
-    background-color: #076b25 !important;
-	color: white;
-	border: 4px solid #076b25;
-	padding: 10px;
-	font-size: 24px;
+    font-size: 24px;
+	font-weight: bold;
+    color: #D95E61;
+	border: 2px solid #D95E61;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.submit a {
-    color: #fff !important;
+	background: linear-gradient(to left, white 50%, #D95E61 50%);
+  	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all 0.5s ease;
 }
 
 .submit:hover {
-    color: #fff;
-    background-color: #076b25;
-    border-color: #076b25;
-    opacity: 0.9;
+    background-position: left bottom;
+  	color: white;
 }
 
 .submit:hover::after {

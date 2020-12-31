@@ -20,6 +20,14 @@ a:hover {
     width: 250px;
 }
 
+.service-list {
+    list-style-type: none;
+}
+
+.service-list h5 a {
+    color: #454867;
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width: 480px) {
 
