@@ -9,7 +9,7 @@ h1 {
 }
 
 h2, h3, h4 {
-	font-weight: bold !important;
+	font-weight: bold;
 	color: #454867;
 }
 
@@ -207,6 +207,11 @@ label {
 }
 
 @media only screen and (max-width: 480px) {
+
+    h4 {
+		font-weight: 400;
+		color: black;
+	}
 
     form {
         width: 100%;

@@ -81,7 +81,7 @@
     <section class="benefits text-center">
 
       <!-- Section heading -->
-      <h2 class="mt-5 p-1">Web Design and Marketing for Counsellors and Therapists</h2>
+      <h2>Web Design and Marketing for Counsellors and Therapists</h2>
       <!-- Section description -->
       <h5 class="w-responsive mx-auto mt-5 mb-5">Are you a counsellor or therapist that doesn't want to spend all their free time trying to market their business?</h5>
       <h5 class="w-responsive mx-auto mb-5">I don't want you to either... </h5>
@@ -182,19 +182,19 @@
         <div class="row justify-content-center">
 
           <div class="col-md-4" align="center">
-            <a href="/about.html#seo"><img src="/images/main/seo.jpg" alt="seo" class="img-fluid"></a>
-            <a href="/about.html#seo"><h3>SEO</h3></a>
-            <p>Have a great-looking website designed to turn visitors into clients? Great! The next step is ranking it as high as possible on Google.</p>
-          </div>
-
-          <div class="col-md-4" align="center">
-            <a href="/about.html#web-design"><img src="/images/main/web-design.jpg" alt="web-design" class="img-fluid"></a>
+            <a href="/about.html#web-design"><img src="/images/main/web-design.png" alt="web-design" class="img-fluid"></a>
             <a href="/about.html#web-design"><h3>Web Design</h3></a>
             <p>This is the first step towards setting up your counselling/therapy practice. Tailor-made, mobile-friendly websites designed to turn visitors into clients.</p>
           </div>
 
           <div class="col-md-4" align="center">
-            <a href="/about.html#social-media"><img src="/images/main/social-media.jpg" alt="social-media" class="img-fluid"></a>
+            <a href="/about.html#seo"><img src="/images/main/seo.png" alt="seo" class="img-fluid"></a>
+            <a href="/about.html#seo"><h3>SEO</h3></a>
+            <p>Have a great-looking website designed to turn visitors into clients? Great! The next step is ranking it as high as possible on Google.</p>
+          </div>
+
+          <div class="col-md-4" align="center">
+            <a href="/about.html#social-media"><img src="/images/main/social-media.png" alt="social-media" class="img-fluid"></a>
             <a href="/about.html#social-media"><h3>Social Media Marketing</h3></a>
             <p>Build a loyal following and engage your audience on all the major social media networks. Let them know every week why you are the solution to their problems.</p>
           </div>
@@ -210,7 +210,7 @@
     <section class="testimonials text-center">
 
       <!-- Section heading -->
-      <h2 class="mt-2 mb-5">Kind Words From Nice Folks</h2>
+      <h2 class="mt-2 mb-5">Testimonials</h2>
       <!-- Section description -->
 
         <div class="container">
@@ -274,18 +274,26 @@
     </section>
 
 
-    <div class="portfolio">
-      
+      <div class="portfolio-container">
+
       <h2 align="center">Some of My Work</h2>
 
       <p class="text-muted mb-5" align="center">I create sales-based websites for counsellors, therapists and psychologists.</p>
 
-      <div align="center">
-        <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="/images/main/sarahs-online-therapy.png" alt="online-therapy" class="img-fluid"></a>
-        <h3 class="mt-3">Sarah's Online Therapy</h3>
-      </div>
+        <div class="row justify-content-center">
 
-    </div>
+          <div class="portfolio-item col-md-6">
+            <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="/images/main/sarahs-online-therapy.png" alt="sarahs-online-therapy" class="img-fluid"></a>
+            <h3 align="center" class="mt-3">Sarah's Online Therapy</h3>
+          </div>
+
+          <div class="portfolio-item col-md-6">
+            <a href="https://tommyhammondcbt.com" target="_blank"><img src="/images/main/tommy-hammond-cbt.png" alt="tommy-hammond-cbt" class="img-fluid"></a>
+            <h3 align="center" class="mt-3">Tommy Hammond CBT</h3>
+          </div>
+
+        </div>
+      </div>
 
 
     
@@ -302,6 +310,7 @@
             <h5>Fill in the form and I'll email you a bullet-listed PDF analysis detailing everything that could be improved with your website within 24 hours.</h5>
             <br>
             <h5>Or just send me a message with your website address on Facebook by clicking the Messenger icon.</h5>
+            <img class="website-analysis-img img-fluid" src="/images/main/website-analysis-counsellor.jpg" alt="website-analysis-counsellor">
           </div>
 
           <div class="col-md-6 col-sm-8-offset-2"><br>

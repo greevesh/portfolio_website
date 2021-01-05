@@ -1,12 +1,12 @@
 p {
-    font-weight: 500;
-    line-height: 2;
-    font-size: 16px;
     color: black;
+    font-size: 20px;
+    line-height: 47px;
+    white-space: normal;
 }
 
 a { 
-    color: #10a8ad;
+    color: #e67700;
     font-weight: bold;
 }
 
@@ -24,6 +24,11 @@ a:hover {
     list-style-type: none;
 }
 
+.service-list img {
+    height: 50px;
+    width: 50px;
+}
+
 .service-list h5 a {
     color: #454867;
 }
@@ -37,9 +42,5 @@ a:hover {
 
     .profile-pic-container {
         text-align: center;
-    }
-
-    .free-website-analysis-strip p {
-        font-size: 14px;
     }
 }
