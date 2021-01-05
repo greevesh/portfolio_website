@@ -41,7 +41,7 @@
 
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a href="/"><img class="logo" src="/images/main/clients-for-counsellors-logo.png" alt="clients-for-counsellors-logo"></a>
+        <a href="/"><img class="logo" src="/images/main/clients-for-counsellors-logo-min.png" alt="clients-for-counsellors-logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           Menu
         </button>
@@ -92,7 +92,7 @@
         <!-- Grid column -->
         <div class="col-md-4">
 
-          <img src="/images/main/family-icon.png" alt="family-icon">
+          <img src="/images/main/family-icon-min.png" alt="family-icon">
           <h4 class="pb-3">More Family Time</h4>
           <p>Spend more time with the people you care about the most.</p>
 
@@ -102,7 +102,7 @@
         <!-- Grid column -->
         <div class="col-md-4">
 
-          <img src="/images/main/mental-health-icon.png" alt="mental-health-icon">
+          <img src="/images/main/mental-health-icon-min.png" alt="mental-health-icon">
           <h4 class="pb-3">A Regained Purpose</h4>
           <p>Focus on what you do best. Improving the mental well-being of people who really need your help.</p>
 
@@ -112,7 +112,7 @@
         <!-- Grid column -->
         <div class="col-md-4">
 
-          <img src="/images/main/money-icon.png" alt="money-icon">
+          <img src="/images/main/money-icon-min.png" alt="money-icon">
           <h4 class="pb-3">Financial Stability</h4>
           <p>Stop worrying about when the next client will come. Have a waiting list and restore your sanity!</p>
 
@@ -133,19 +133,8 @@
 
           <!-- Grid column -->
           <div class="col-md-4">
-      
-            <a href="/growth-tips/grow-counselling-business-online.html"><img class="img-fluid growth-tips-img" src="/images/main/grow-counselling-business-online.jpeg" alt="grow-counselling-business-online"></a>
-            <br><br>
-            <b>15. Oct, 2020</b>
-            <a href="/growth-tips/grow-counselling-business-online.html"><h4 class="article-title">4 Ways To Grow Your Counselling Business Online</h4></a>
             
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-4">
-            
-            <a href="/growth-tips/counsellor-needs-blog.html"><img class="img-fluid growth-tips-img" src="/images/main/counsellor-needs-blog.jpg" alt="counsellor-needs-blog"></a>
+            <a href="/growth-tips/counsellor-needs-blog.html"><img class="img-fluid growth-tips-img" src="/images/main/counsellor-needs-blog-min.jpg" alt="counsellor-needs-blog"></a>
             <br><br>
             <b>17. Nov, 2020</b>
             <a href="/growth-tips/counsellor-needs-blog.html"><h4 class="article-title">5 Reasons Why Every Counsellor Needs a Blog</h4></a>
@@ -156,10 +145,21 @@
           <!-- Grid column -->
           <div class="col-md-4">
             
-            <a href="/growth-tips/counsellors-need-seo-services.html"><img class="img-fluid growth-tips-img" src="/images/main/counsellors-need-seo-services.jpg" alt="counsellors-need-seo-services"></a>
+            <a href="/growth-tips/counsellors-need-seo-services.html"><img class="img-fluid growth-tips-img" src="/images/main/counsellors-need-seo-services-min.jpg" alt="counsellors-need-seo-services"></a>
             <br><br>
             <b>6. December, 2020</b>
             <a href="/growth-tips/counsellors-need-seo-services.html"><h4 class="article-title">5 Reasons Why Online Counsellors Need SEO Services</h4></a>
+            
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4">
+            
+            <a href="/growth-tips/counsellor-needs-website-2021.html"><img class="img-fluid growth-tips-img" src="/images/main/counsellor-needs-website-2021-min.jpg" alt="counsellor-needs-website-2021"></a>
+            <br><br>
+            <b>1. January, 2021</b>
+            <a href="/growth-tips/counsellor-needs-website-2021.html"><h4 class="article-title">5 Solid Reasons for Counsellors Having a Website in 2021</h4></a>
             
           </div>
           <!-- Grid column -->
@@ -182,19 +182,19 @@
         <div class="row justify-content-center">
 
           <div class="col-md-4" align="center">
-            <a href="/about.html#web-design"><img src="/images/main/web-design.png" alt="web-design" class="img-fluid"></a>
+            <a href="/about.html#web-design"><img src="/images/main/web-design-min.png" alt="web-design" class="img-fluid"></a>
             <a href="/about.html#web-design"><h3>Web Design</h3></a>
             <p>This is the first step towards setting up your counselling/therapy practice. Tailor-made, mobile-friendly websites designed to turn visitors into clients.</p>
           </div>
 
           <div class="col-md-4" align="center">
-            <a href="/about.html#seo"><img src="/images/main/seo.png" alt="seo" class="img-fluid"></a>
+            <a href="/about.html#seo"><img src="/images/main/seo-min.png" alt="seo" class="img-fluid"></a>
             <a href="/about.html#seo"><h3>SEO</h3></a>
             <p>Have a great-looking website designed to turn visitors into clients? Great! The next step is ranking it as high as possible on Google.</p>
           </div>
 
           <div class="col-md-4" align="center">
-            <a href="/about.html#social-media"><img src="/images/main/social-media.png" alt="social-media" class="img-fluid"></a>
+            <a href="/about.html#social-media"><img src="/images/main/social-media-min.png" alt="social-media" class="img-fluid"></a>
             <a href="/about.html#social-media"><h3>Social Media Marketing</h3></a>
             <p>Build a loyal following and engage your audience on all the major social media networks. Let them know every week why you are the solution to their problems.</p>
           </div>
@@ -225,7 +225,7 @@
             </div>
               <!-- Avatar -->
               <div class="avatar mx-auto white">
-                <img src="/images/main/client-testimonial-1.jpg" class="rounded-circle img-fluid mt-3"  alt="client-testimonial">
+                <img src="/images/main/client-testimonial-1-min.jpg" class="rounded-circle img-fluid mt-3"  alt="client-testimonial">
               </div>
               <div class="card-body">
                 <!-- Name -->
@@ -250,7 +250,7 @@
             </div>
               <!-- Avatar -->
               <div class="avatar mx-auto white">
-                <img src="/images/main/client-testimonial-2.jpeg" class="rounded-circle img-fluid mt-3" alt="client-testimonial">
+                <img src="/images/main/client-testimonial-2-min.jpeg" class="rounded-circle img-fluid mt-3" alt="client-testimonial">
               </div>
               <div class="card-body">
                 <!-- Name -->
@@ -283,12 +283,12 @@
         <div class="row justify-content-center">
 
           <div class="portfolio-item col-md-6">
-            <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="/images/main/sarahs-online-therapy.png" alt="sarahs-online-therapy" class="img-fluid"></a>
+            <a href="https://sarahsonlinetherapy.xyz" target="_blank"><img src="/images/main/sarahs-online-therapy-min.png" alt="sarahs-online-therapy" class="img-fluid"></a>
             <h3 align="center" class="mt-3">Sarah's Online Therapy</h3>
           </div>
 
           <div class="portfolio-item col-md-6">
-            <a href="https://tommyhammondcbt.com" target="_blank"><img src="/images/main/tommy-hammond-cbt.png" alt="tommy-hammond-cbt" class="img-fluid"></a>
+            <a href="https://tommyhammondcbt.com" target="_blank"><img src="/images/main/tommy-hammond-cbt-min.png" alt="tommy-hammond-cbt" class="img-fluid"></a>
             <h3 align="center" class="mt-3">Tommy Hammond CBT</h3>
           </div>
 
@@ -310,7 +310,7 @@
             <h5>Fill in the form and I'll email you a bullet-listed PDF analysis detailing everything that could be improved with your website within 24 hours.</h5>
             <br>
             <h5>Or just send me a message with your website address on Facebook by clicking the Messenger icon.</h5>
-            <img class="website-analysis-img img-fluid" src="/images/main/website-analysis-counsellor.jpg" alt="website-analysis-counsellor">
+            <img class="website-analysis-img img-fluid" src="/images/main/website-analysis-counsellor-min.jpg" alt="website-analysis-counsellor">
           </div>
 
           <div class="col-md-6 col-sm-8-offset-2"><br>

@@ -42,7 +42,7 @@
     <div class="contact-banner">
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a href="/"><img class="logo" src="/images/main/clients-for-counsellors-logo.png" alt="clients-for-counsellors-logo"></a>
+        <a href="/"><img class="logo" src="/images/main/clients-for-counsellors-logo-min.png" alt="clients-for-counsellors-logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           Menu
         </button>
@@ -72,7 +72,7 @@
           <h1 align="center">Contact</h1>
 
       <div align="center">
-        <img class="img-fluid" src="/images/main/patient-and-counsellor.jpg" alt="patient-and-counsellor">
+        <img class="img-fluid" src="/images/main/patient-and-counsellor-min.jpg" alt="patient-and-counsellor">
       </div>
     
     <br><br>                  
