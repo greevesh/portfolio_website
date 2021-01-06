@@ -84,7 +84,7 @@
       <h2>Web Design and Marketing for Counsellors and Therapists</h2>
       <!-- Section description -->
       <h5 class="w-responsive mx-auto mt-5 mb-5">Are you a counsellor or therapist that doesn't want to spend all their free time trying to market their business?</h5>
-      <h5 class="w-responsive mx-auto mb-5">I don't want you to either... </h5>
+      <h5 class="w-responsive mx-auto mb-5">I don't want you to either...</h5>
       <h5 class="w-responsive mx-auto mb-5">I want you to have the following:</h5>
       <!-- Grid row -->
       <div class="row">
@@ -306,7 +306,7 @@
       <div class="container">
         <div class="row justify-content-center">
 
-          <div class="col-md-6 mt-5 instructions">
+          <div class="col-md-6 instructions">
             <h5>Fill in the form and I'll email you a bullet-listed PDF analysis detailing everything that could be improved with your website within 24 hours.</h5>
             <br>
             <h5>Or just send me a message with your website address on Facebook by clicking the Messenger icon.</h5>
@@ -447,13 +447,6 @@
       <p align="center" class="domain"><b>&copy; clientsforcounsellors.com</b></p>
       </div> <!-- End of footer -->
 
-      <!-- Facebook Messenger Widget -->
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-      <div class="elfsight-app-7c3271f0-42e5-4c2c-9fe5-f2891bed3108"></div>
-
-      <!-- Cookie Notification -->
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-      <div class="elfsight-app-94352d8d-7d37-44b9-8e86-9f796c94f96f"></div>
 
       <script>
 
@@ -481,6 +474,14 @@
         });
 
       </script>
+
+      <!-- Cookie Notification -->
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-94352d8d-7d37-44b9-8e86-9f796c94f96f"></div>
+
+      <!-- Facebook Messenger Widget -->
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-7c3271f0-42e5-4c2c-9fe5-f2891bed3108"></div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
